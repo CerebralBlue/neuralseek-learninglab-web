@@ -6,7 +6,7 @@ order: 3
 render_with_liquid: false
 ---
 
-# Module 1.3
+# Module 1.3: Add NeuralSeek as a Custom Extension
 
 ## Open Integrations
 
