@@ -6,7 +6,7 @@ order: 2
 render_with_liquid: false
 ---
 
-# Module 1.2
+# Module 1.2: Setup watsonx Assistant
 
 Module 1.2 is only required if you do not currently have watsonx Assistant. 
 If you do have watsonx Assistant skip to [Module 1.3]({{site.baseurl}}{% link module1/module1.3/module1.3.md %}).
