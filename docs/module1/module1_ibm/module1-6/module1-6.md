@@ -1,6 +1,6 @@
 ---
 title: Module 1.6
-permalink: /module1/module1_ibm/module1.6/
+permalink: /module1/module1_ibm/module1-6/
 parent: module1_ibm
 order: 6
 render_with_liquid: false
