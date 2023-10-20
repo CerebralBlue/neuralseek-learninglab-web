@@ -27,7 +27,7 @@ Press “Enter”.
 ### View Watsonx Assistant Preview Questions in NeuralSeek
 Login to the NeuralSeek User Interface. 
 * (a) On the top menu, click “Curate”.
-NeuralSeek balances AI automation and human review to maximize Watsonx AI potential.
 * (b) View response and interact with the automated recommendations and analytics.
 
+NeuralSeek balances AI automation and human review to maximize Watsonx AI potential.
 ![image2.1.2](images/image2.1.2.png)
