@@ -60,53 +60,46 @@ The reason why we are deleting it is because sometimes the query context provide
 ![image1.5.9](images/image1.5.9.png)
 
 ## Edit Extension
+Scroll down and click “Edit extension”. 
 
 ![image1.5.10](images/image1.5.10.png)
 
 ## Choose an Extension
+Select NeuralSeek extension, in this example it is, “IBM Learning Lab: NeuralSeek with Watson”.
 
 ![image1.5.11](images/image1.5.11.png)
 
-Select NeuralSeek extension, in this example it is, “IBM Learning Lab: NeuralSeek with Watson”.
-
 ## Choose Operation
+Select “Seek an answer from NeuralSeek".
 
 ![image1.5.12](images/image1.5.12.png)
 
-Select “Seek an answer from NeuralSeek".
-
 ## Set Extension Parameters
+Select “Session Variables".
 
 ![image1.5.13](images/image1.5.13.png)
 
-Select “Session Variables".
-
 ## Choose Parameters
+Select “query_text” from the list options.
 
 ![image1.5.14](images/image1.5.14.png)
 
-Select “query_text” from the list options.
-
 ## Extension Setup
+Click “Apply".
 
 ![image1.5.15](images/image1.5.15.png)
 
-Click “Apply".
-
 ## Save Extension
+In the top right corner, click the "Save" icon.
 
-![image1.5.16](images/image1.5.16.png)
-
-In the top right corner, click the "Save" icon. 
+![image1.5.16](images/image1.5.16.png) 
 
 ## Close Extension
+In the top right corner, click "x" to close. 
 
 ![image1.5.17](images/image1.5.17.png)
 
-In the top right corner, click "x" to close. 
-
 ## Confirm Status
+On the right side, view the green circle with a check mark next to NeuralSeek search.
 
 ![image1.5.18](images/image1.5.18.png)
-
-On the right side, view the green circle with a check mark next to NeuralSeek search.
