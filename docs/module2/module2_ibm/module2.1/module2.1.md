@@ -11,7 +11,7 @@ render_with_liquid: false
 ### Preview
 Login to [IBM Cloud](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-_-trial&_gl=1*1odtrhw*_ga*NTM2NzU0MTk0LjE2OTY1MjE4NDQ.*_ga_FYECCCS21D*MTY5Njg2NzU0Ni41LjEuMTY5Njg2ODg5OS4wLjAuMA..). Open IBM watsonx Assistant. 
 
-![image2.1.1_2](images/image2.1.1_2.png)
+![image2.1.1_2](images/image2.1.1_2.PNG)
 
 In the bottom left corner, click “Preview”. 
 
