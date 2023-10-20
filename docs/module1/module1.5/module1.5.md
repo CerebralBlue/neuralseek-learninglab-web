@@ -9,70 +9,59 @@ render_with_liquid: false
 # Module 1.5: Add NeuralSeek Starter Kit Actions
 
 ## Open Actions
+Open IBM Watsonx Assistant. 
+* (a) On the left menu, select “Actions”.
+* (b) Click “Created by you”.
+* (c) Click “Create action”.
 
 ![image1.5.1](images/image1.5.1.png)
 
-Open IBM Watsonx Assistant. 
-* (a) On the left menu, select “Actions.”
-* (b) Click “Created by you.”
-* (c) Click “Create action.”
-
 ## Create an Action
+Select “Quick Start with Template".
 
 ![image1.5.2](images/image1.5.2.png)
 
-Select “Quick Start with Template".
-
 ## Build at Hyperspeed
+Select “Do more with starter kits”.
 
 ![image1.5.3](images/image1.5.3.png)
 
-Select “Do more with starter kits”.
-
 ## Quick Start with Templates
+Search and select “NeuralSeek”.
 
 ![image1.5.4](images/image1.5.4.png)
 
-Search and select “NeuralSeek”.
-
 ## NeuralSeek Starter Kit
+Click “Start this starter kit”.
 
 ![image1.5.5](images/image1.5.5.png)
 
-Click “Start this starter kit”.
-
 ## Selected Templates
+Click “Add templates".
 
 ![image1.5.6](images/image1.5.6.png)
 
-Click “Add templates".
-
 ## View Inactive Actions
-
-![image1.5.7](images/image1.5.7.png)
-
 * (a) On the left menu, select “Actions”.
 * (b) Under All items, select “Created by you”. On the right side under status, view the red circle on “NeuralSeek search”.
 * (c) Open the action, click “NeuralSeek search”.
 
+![image1.5.7](images/image1.5.7.png)
+
 ## Customer Starts With
+On the left menu, select option 3 highlighted in red “This step has no content.”
 
 ![image1.5.8](images/image1.5.8.png)
 
-On the left menu, select option 3 highlighted in red “This step has no content.”
-
 ## Delete Assignment
-
-![image1.5.9](images/image1.5.9.png)
-
 On the right side of the set “Query_Context to Context” click “X.” 
 The reason why we are deleting it is because sometimes the query context provided by watsonx Assistant can be huge and exceeds the size of the request body to the API.
+
+![image1.5.9](images/image1.5.9.png)
 
 ## Edit Extension
 
 ![image1.5.10](images/image1.5.10.png)
-
-Scroll down and click “Edit extension”.
 
 ## Choose an Extension
 
