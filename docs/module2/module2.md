@@ -3,7 +3,6 @@ title: Module 2
 permalink: /module2
 parent: /
 order: 2
-render_with_liquid: false
 ---
 
 # Module 2: Using NeuralSeek
@@ -16,6 +15,6 @@ The purpose of **Module 2: Using NeuralSeek**  is to highlight the key features 
 ### Time: 15-25 minutes
 ### No Code Required
 
-**_IBM Users_** click here to continue: **[Module 2.1]({{site.baseurl}}{% link module2_ibm/module2-1/module2-1.md %})**.
+**_IBM Users_** click here to continue: **[Module 2.1]({{site.baseurl}}{% link module2/module2_ibm/module2-1/module2-1.md %})**.
 
-**_AWS Users_** click here to continue: **[Module 2.1]({{site.baseurl}}{% link module2_aws/module2-1/module2-1.md %})**.
+**_AWS Users_** click here to continue: **[Module 2.1]({{site.baseurl}}{% link module2/module2_aws/module2-1/module2-1.md %})**.

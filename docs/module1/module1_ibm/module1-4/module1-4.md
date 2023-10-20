@@ -3,7 +3,6 @@ title: Module 1.4
 permalink: /module1/module1_ibm/module1-4/
 parent: module1_ibm
 order: 4
-render_with_liquid: false
 ---
 
 # Module 1.4: Authenticate NeuralSeek with watsonx Assistant

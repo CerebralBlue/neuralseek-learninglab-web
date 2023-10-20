@@ -3,13 +3,12 @@ title: Module 1.2
 permalink: /module1/module1_ibm/module1-2/
 parent: module1_ibm
 order: 2
-render_with_liquid: false
 ---
 
 # Module 1.2: Setup watsonx Assistant
 
 Module 1.2 is only required if you do not currently have watsonx Assistant. 
-If you do have watsonx Assistant skip to [Module 1.3]({{site.baseurl}}{% link module1/module1-3/module1-3.md %}).
+If you do have watsonx Assistant skip to [Module 1.3]({{site.baseurl}}{% link module1/module1_ibm/module1-3/module1-3.md %}).
 
 ## Create Resource
 If you do not have watsonx Assistant, login to [IBM Cloud](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-_-trial&_gl=1*1odtrhw*_ga*NTM2NzU0MTk0LjE2OTY1MjE4NDQ.*_ga_FYECCCS21D*MTY5Njg2NzU0Ni41LjEuMTY5Njg2ODg5OS4wLjAuMA..). 

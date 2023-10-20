@@ -4,7 +4,6 @@ permalink: /module1/
 parent: /
 layout: chapter
 order: 1
-render_with_liquid: false
 ---
 
 # Module 1: Inital Setup of NeuralSeek - No Code Required
@@ -17,6 +16,6 @@ The purpose of **Module 1: Initial Setup of NeuralSeek - No Code Required** is t
 ### Time: 15 minutes
 ### No Code Required
 
-**_IBM Users_** are recommended to connect NeuralSeek with **IBM Watson Discovery** and **IBM watsonx Assistant**. Click here to continue: **[Module 1.1 - IBM]({{site.baseurl}}{% link module1_ibm/module1-1/module1-1.md %})**.
+**_IBM Users_** are recommended to connect NeuralSeek with **IBM Watson Discovery** and **IBM watsonx Assistant**. Click here to continue: **[Module 1.1 - IBM]({{site.baseurl}}{% link module1/module1_ibm/module1-1/module1-1.md %})**.
 
-**_AWS Users_** are recommended to connect NeuralSeek with **AWS Kendra** and **AWS Lex**. Click here to continue: **[Module 1.1 - AWS]({{site.baseurl}}{% link module1_aws/module1-1/module1-1.md %})**.
+**_AWS Users_** are recommended to connect NeuralSeek with **AWS Kendra** and **AWS Lex**. Click here to continue: **[Module 1.1 - AWS]({{site.baseurl}}{% link module1/module1_aws/module1-1/module1-1.md %})**.
