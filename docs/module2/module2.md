@@ -1,8 +1,8 @@
 ---
 title: Module 2
-permalink: /docs/module2
-parent: docs
-order: 1
+permalink: /module2
+parent: /
+order: 2
 render_with_liquid: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Module 1.2
-permalink: /module1/module1.2
-parent: module1
+permalink: /module1/module1_ibm/module1.2/
+parent: module1_ibm
 order: 2
 render_with_liquid: false
 ---
