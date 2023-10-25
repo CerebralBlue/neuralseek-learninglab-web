@@ -26,7 +26,7 @@ Search and select “Watson Assistant”.
 * (b) Read the Terms and check, “I have read and agree to the following license agreements: [Terms](https://www.ibm.com/software/sla/sladb.nsf/sla/bm-0038-15)”.
 * (c) Click “Create”.
 
-![image1.2.3](images/image1.2.3.png)
+![image1.2.3_](images/image1.2.3_updated.png)
 
 ## Launch watsonx Assistant
 If desired, complete the “Getting Started Tutorial”. 
