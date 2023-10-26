@@ -5,4 +5,4 @@ parent: module1_aws
 order: 4
 ---
 
-# Module 1.1 - Configure KnowledgeBase with NeuralSeek
+# Module 1.4 - Configure KnowledgeBase with NeuralSeek
