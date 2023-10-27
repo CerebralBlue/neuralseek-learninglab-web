@@ -10,11 +10,12 @@ order: 4
 ## Configure.
 Navigate to the “Configure” tab in NeuralSeek.
 
-![image1.3.1](images/image1.3.1.png)
+![image1.4.1](images/image1.4.1.png)
 
 ## Corporate KnowledgeBase Details. 
 Click the “Corporate KnowledgeBase Details” drop down menu. 
 
+![image1.4.2](images/image1.4.2.png)
 ## Select KnowledgeBase. 
 Select desired KnowledgeBase from the drop down menu. 
 - We recommend the AWS KnowledgeBase "**Kendra Index**" option. For the purposes of this lab, we will be using "**AWS OpenSearch**".
