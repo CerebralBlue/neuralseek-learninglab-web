@@ -6,3 +6,61 @@ order: 5
 ---
 
 # Module 1.5 - Integrate Virtual Agent with NeuralSeek
+
+## Integrate 
+Navigate to the “Integrate” tab in NeuralSeek.
+
+## Select Virtual Agent
+Select choice of virtual agent on left side menu.
+For this lab, we recommend "**LexV2 Lambda**".
+
+## Download File
+Download the Lambda Archive .zip file.
+
+## Create a Function
+Click the link to open the Functions page on the AWS Lambda console to create a function from scratch.
+- **(a)** Select "Create Function".
+- **(b)** Add a “Function Name”. For this lab, we recommend “learning-lab”.
+- **(c)** Click “Create Function”.
+
+## Upload File
+Navigate to the Code Source pane in the AWS Lambda console. 
+- **(a)** Click “Upload from”.
+- **(b)** Click “.zip file”.
+- **(c)** Click “Upload” to select your Lambda Archive .zip file.
+- **(d)** Click “Save”.
+
+## Add API Key and Instance URL
+On the NeuralSeek "Integrate" page, copy the provided API key and Instance URL.
+Navigate to the Code Source pane in the AWS Lambda console. 
+- **(a)** Click on the “index.mjs” file tab. 
+- **(b)** Enter the copied API key and Instance URL into the code block:
+{% raw %}
+```
+const neuralSeekURL = “enter url here” ; 
+const apikey = “enter api key here” ; 
+```
+{% endraw %}
+- **(c)** Click "Deploy".
+
+## Update Timeout Setting
+Navigate to "Configuration" tab in NeuralSeek.
+- **(a)** Select "General Configuration" pane.
+- **(b)** Click "Edit".
+- **(c)** Update under “Timeout”: set min to be “1” and sec to be “0”.
+- **(d)** Click "Save".
+
+For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation here, [link]. (Info on creating lex bot refer to video 13:30 - 18:30)
+
+## Assign Alias 
+Open the Amazon Lex console at https://console.aws.amazon.com/lexv2/home#bots
+On the left side bar menu, under “Deployment” click “Aliases”.
+From the list of alias names, choose the alias name that you want to use. For this lab, we recommend “TestBotAlias”
+
+## Select Lanaguage
+Scroll down to “Languages” tab.
+From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “English”.
+
+## Connect
+Choose the name of the Lambda function to use, then choose the version or alias of the function. For this lab, we recommend “MyNeuralSeek”
+Click “Save”.
