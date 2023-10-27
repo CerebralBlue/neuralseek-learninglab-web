@@ -10,12 +10,17 @@ order: 5
 ## Integrate 
 Navigate to the “Integrate” tab in NeuralSeek.
 
+![image1.5.1](images/image1.5.1.png)
+
 ## Select Virtual Agent
 Select choice of virtual agent on left side menu.
 For this lab, we recommend "**LexV2 Lambda**".
 
+![image1.5.2](images/image1.5.2.png)
+
 ## Download File
 Download the Lambda Archive .zip file.
+![image1.5.3](images/image1.5.3.png)
 
 ## Create a Function
 Click the link to open the Functions page on the AWS Lambda console to create a function from scratch.
