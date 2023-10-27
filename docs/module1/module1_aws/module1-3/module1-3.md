@@ -6,3 +6,16 @@ order: 3
 ---
 
 # Module 1.3 - Welcome to NeuralSeek
+
+## Instance Link
+Click on the instance link in the user interface.
+
+## Log In
+Fill out the necessary information below to log in to NeuralSeek.
+- **(a)** Enter user email address.
+- **(b)** Enter user password generated from the "Create a User" section in [Module 1.2](module1_aws/module1-2.md).
+
+If desired, you are able to reset the password using the “Forgot password?” link.
+
+## Continue
+Click "Continue". 
