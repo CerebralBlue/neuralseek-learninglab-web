@@ -2,6 +2,7 @@
 title: Module 1 - AWS
 permalink: /module1/module1_aws/
 parent: module1
+layout: chapter
 order: 2
 ---
 ## Disclaimer
