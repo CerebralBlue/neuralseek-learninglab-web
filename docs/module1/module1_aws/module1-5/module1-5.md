@@ -69,3 +69,20 @@ From the list of supported languages, click the language that the Lambda functio
 ## Connect
 Choose the name of the Lambda function to use, then choose the version or alias of the function. For this lab, we recommend “MyNeuralSeek”
 Click “Save”.
+
+## Fallback Activities
+The default FallbackIntent allows for the Lambda function to be called when it is detected. To activate this intent, navigate to Amazon Lex in AWS Console
+- **(a)** Click “MyNeuralSeek.”
+- **(b)** Click “Intents” under “English (US)” on the left sidebar menu.
+- **(c)** Click on the “FallbackIntent” link.
+
+Under the "Fullfillment" section, click the "Activate" icon to turn on. 
+- **(a)** Click "Advanced Options"
+- **(b)** Select the “Use a Lambda Function for Fulfillment” option. 
+- **(c)** Click "Update Options."
+- **(d)** Click "Save Intent."
+
+Build the chatbot and test the FallbackIntent routine with a question. For the purpose of this lab, we used "Why is the sky blue?". 
+- **(a)** Click “Build.” This step may take a few moments.
+- **(b)** Click “Test.” The Amazon Lex chatbot will be generated. 
+- **(c)** Prompt the chatbot with a question. For the purpose of this lab, we used “Why is the sky blue?.”
