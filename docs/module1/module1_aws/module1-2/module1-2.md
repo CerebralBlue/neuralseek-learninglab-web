@@ -35,7 +35,9 @@ The newly created instance will populate below and an instance ID will be genera
 - **(d)** Updated instance name will populate. 
   
 ![image1.2.4](images/image1.2.4.png)
+
 ![image1.2.5](images/image1.2.5.png)
+
 ![image1.2.6](images/image1.2.6.png)
 
 ## Connect
@@ -45,6 +47,9 @@ To allow the user to connect to the instance:
 - **(c)** User is now able to connect to the instance.
   
 ![image1.2.7](images/image1.2.7.png)
+
 ![image1.2.8](images/image1.2.8.png)
+
 ![image1.2.9](images/image1.2.9.png)
+
 ![image1.2.10](images/image1.2.10.png)

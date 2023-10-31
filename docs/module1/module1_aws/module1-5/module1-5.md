@@ -68,7 +68,7 @@ Navigate to "Configuration" tab in AWS Lambda Function Console.
 
 ![image1.5.10](images/image1.5.10.png)
 
-For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation [here.]({{site.baseurl}}{% link module1_aws/module1-5/module1-5.md %}) 
+For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation [here.]({{site.baseurl}}{% link module1/module1_aws/module1-5/module1-5.md %}) 
 
 ## Assign Alias 
 Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use.
