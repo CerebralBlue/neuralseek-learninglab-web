@@ -20,6 +20,7 @@ For this lab, we recommend "**LexV2 Lambda**".
 
 ## Download File
 Download the Lambda Archive .zip file.
+
 ![image1.5.3](images/image1.5.3.png)
 
 ## Create a Function
@@ -28,16 +29,23 @@ Click the link to open the Functions page on the AWS Lambda console to create a 
 - **(b)** Add a “Function Name”. For this lab, we recommend “learning-lab”.
 - **(c)** Click “Create Function”.
 
+![image1.5.4](images/image1.5.4.png)
+
+![image1.5.5](images/image1.5.5.png)
+
 ## Upload File
-Navigate to the Code Source pane in the AWS Lambda console. 
-- **(a)** Click “Upload from”.
-- **(b)** Click “.zip file”.
-- **(c)** Click “Upload” to select your Lambda Archive .zip file.
-- **(d)** Click “Save”.
+Navigate to the Code Source pane in the AWS Lambda Function console. 
+- **(a)** Click “Upload from”. Click “.zip file”.
+- **(b)** Click “Upload” to select your Lambda Archive .zip file.
+- **(c)** Click “Save”.
+
+![image1.5.6](images/image1.5.6.png)
+
+![image1.5.7](images/image1.5.7.png)
 
 ## Add API Key and Instance URL
 On the NeuralSeek "Integrate" page, copy the provided API key and Instance URL.
-Navigate to the Code Source pane in the AWS Lambda console. 
+Navigate to the Code Source pane in the AWS Lambda Function console. 
 - **(a)** Click on the “index.mjs” file tab. 
 - **(b)** Enter the copied API key and Instance URL into the code block:
 {% raw %}
@@ -46,29 +54,36 @@ const neuralSeekURL = “enter url here” ;
 const apikey = “enter api key here” ; 
 ```
 {% endraw %}
-- **(c)** Click "Deploy".
+- The "Deploy" button will enable. Click "Deploy" to succesfully update the function.
+
+![image1.5.8](images/image1.5.8.png)
 
 ## Update Timeout Setting
-Navigate to "Configuration" tab in NeuralSeek.
-- **(a)** Select "General Configuration" pane.
-- **(b)** Click "Edit".
-- **(c)** Update under “Timeout”: set min to be “1” and sec to be “0”.
-- **(d)** Click "Save".
+Navigate to "Configuration" tab in AWS Lambda Function Console.
+- **(a)** In the "General Configuration" pane, click "Edit".
+- **(b)** Update under “Timeout”: set min to be “1” and sec to be “0”.
+- **(c)** Click "Save".
 
-For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation here, [link]. (Info on creating lex bot refer to video 13:30 - 18:30)
+![image1.5.9](images/image1.5.9.png)
+
+![image1.5.10](images/image1.5.10.png)
+
+For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation [here.]({{site.baseurl}}{% link module1_aws/module1-5/module1-5.md %}) 
 
 ## Assign Alias 
-Open the Amazon Lex console at https://console.aws.amazon.com/lexv2/home#bots
-On the left side bar menu, under “Deployment” click “Aliases”.
-From the list of alias names, choose the alias name that you want to use. For this lab, we recommend “TestBotAlias”
+Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use.
+- **(a)** On the left side bar menu, under “Deployment”, click “Aliases”.
+- **(b)** From the list of alias names, choose the alias name that you want to use. For this lab, we recommend “TestBotAlias”
+
+![images1.5.11](images/image1.5.11.png)
 
 ## Select Lanaguage
-Scroll down to “Languages” tab.
+Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use. 
+- **(a)** On the left side bar menu, click the “Languages” tab.
 From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “English”.
 
-## Connect
-Choose the name of the Lambda function to use, then choose the version or alias of the function. For this lab, we recommend “MyNeuralSeek”
-Click “Save”.
+## Optional Lambda Function Connection
+Choose the name of the Lambda function to use, then choose the version or alias of the function. For this lab, we recommend “MyNeuralSeek”. Then, click “Save”.
 
 ## Fallback Activities
 The default FallbackIntent allows for the Lambda function to be called when it is detected. To activate this intent, navigate to Amazon Lex in AWS Console
