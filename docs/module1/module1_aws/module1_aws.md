@@ -53,24 +53,43 @@ Under "Index Setting" section, copy the unqiue "Index ID" to use as the "Kendra 
 
 ## Create User
 Navigate to IAM in the AWS Console.
+
+![image1.7](images/image1.7.PNG)
+
 - **(a)** Click "Users" on the left sidebar menu. 
 - **(b)** Click "Create a User". 
+
+![image1.8](images/image1.8.png)
+
 - **(c)** Add a user name, then click "Next."
+
+![image1.9](images/image1.9.png)
+
 - **(d)** Click "Create Group."
 - **(e)** Add a user group name, then select a policy name based on the best use case. For the purpose of this lab, select the "AmazonKendraReadOnlyAccess" policy name.
 - **(f)** Click "Create user group", then click "Next."
+
+![image1.10](images/image1.10.png)
+
 - **(g)** Review the details, then click "Create User" to create the user. 
 
 ## Create Access Key
 Navigate to the "Security Credentials" tab under the selected user after verfiying that the user is added to the correct group. 
 - **(a)** In the "Access keys" section, click "Create access key."
+
+![image1.11](images/image1.11.png)
+
 - **(b)** Select the appropriate "Use case." For the purpose of this lab, select "Application running outside AWS".
 - **(c)** Click "Next". 
 - **(d)** Click "Create access key." 
 
+![image1.12](images/image1.12.png)
+
 ## AWS Role Access Keys
 On the "Retrieve access keys" page, copy the unqiue "Access key" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
-On the same page, copy the unique "Secret access key" to use as the "AWS Role Secret Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. *Disclaimer: the secret access key will be accessible only once. It is important to copy the secret access key prior to proceeding.*
+On the same page, copy the unique "Secret access key" to use as the "AWS Role Secret Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
+
+***Disclaimer: the secret access key will be accessible only once. It is important to copy the secret access key prior to proceeding.***
 
 - **(a)** Click "Done."
