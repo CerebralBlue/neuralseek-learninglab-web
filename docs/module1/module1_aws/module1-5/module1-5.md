@@ -19,7 +19,7 @@ For this lab, we recommend "**LexV2 Lambda**".
 ![image1.5.2](images/image1.5.2.png)
 
 ## Download File
-Download the Lambda Archive .zip file.
+Download the Lambda Archive .zip file to your local storage.
 
 ![image1.5.3](images/image1.5.3.png)
 
@@ -33,10 +33,10 @@ Click the link to open the Functions page on the AWS Lambda console to create a 
 
 ![image1.5.5](images/image1.5.5.png)
 
-## Upload File
+## Upload the downloaded .zip File
 Navigate to the Code Source pane in the AWS Lambda Function console. 
 - **(a)** Click “Upload from”. Click “.zip file”.
-- **(b)** Click “Upload” to select your Lambda Archive .zip file.
+- **(b)** Click “Upload” to select your Lambda Archive .zip file you downloaded.
 - **(c)** Click “Save”.
 
 ![image1.5.6](images/image1.5.6.png)
@@ -44,24 +44,26 @@ Navigate to the Code Source pane in the AWS Lambda Function console.
 ![image1.5.7](images/image1.5.7.png)
 
 ## Add API Key and Instance URL
-On the NeuralSeek "Integrate" page, copy the provided API key and Instance URL.
+On the NeuralSeek "Integrate" page, copy the provided API key and Instance URL mentioned in the NeuralSeek's integration page.
 Navigate to the Code Source pane in the AWS Lambda Function console. 
 - **(a)** Click on the “index.mjs” file tab. 
 - **(b)** Enter the copied API key and Instance URL into the code block:
+
 {% raw %}
 ```
 const neuralSeekURL = “enter url here” ; 
 const apikey = “enter api key here” ; 
 ```
 {% endraw %}
-- The "Deploy" button will enable. Click "Deploy" to succesfully update the function.
+
+- The "Deploy" button will enable. Click "Deploy" to succesfully update and deploy the function.
 
 ![image1.5.8](images/image1.5.8.png)
 
 ## Update Timeout Setting
 Navigate to "Configuration" tab in AWS Lambda Function Console.
 - **(a)** In the "General Configuration" pane, click "Edit".
-- **(b)** Update under “Timeout”: set min to be “1” and sec to be “0”.
+- **(b)** Update under “Timeout”: set min to be “1” and sec to be “0”. This will ensure the lambda function will not time out for 1 minute.
 - **(c)** Click "Save".
 
 ![image1.5.9](images/image1.5.9.png)
@@ -86,7 +88,7 @@ From the list of supported languages, click the language that the Lambda functio
 Choose the name of the Lambda function to use, then choose the version or alias of the function. For this lab, we recommend “MyNeuralSeek”. Then, click “Save”.
 
 ## Fallback Activities
-The default FallbackIntent allows for the Lambda function to be called when it is detected. To activate this intent, navigate to Amazon Lex in AWS Console
+The default FallbackIntent allows for the Lambda function to be called when it is detected. The idea is that Lex would invoke NeuralSeek to answer whenever there is no matching intent found. To activate this, navigate to Amazon Lex in AWS Console
 - **(a)** Click “MyNeuralSeek.”
 - **(b)** Click “Intents” under “English (US)” on the left sidebar menu.
 - **(c)** Click on the “FallbackIntent” link.
