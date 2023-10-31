@@ -51,7 +51,7 @@ Review the details on the page, then click "Create". Propagating IAM Role and cr
 ### Kendra Index ID
 Under "Index Setting" section, copy the unqiue "Index ID" to use as the "Kendra Index ID" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
-## Create User
+### Create User
 Navigate to IAM in the AWS Console.
 
 ![image1.7](images/image1.7.PNG)
@@ -73,7 +73,7 @@ Navigate to IAM in the AWS Console.
 
 - **(g)** Review the details, then click "Create User" to create the user. 
 
-## Create Access Key
+### Create Access Key
 Navigate to the "Security Credentials" tab under the selected user after verfiying that the user is added to the correct group. 
 - **(a)** In the "Access keys" section, click "Create access key."
 
@@ -85,7 +85,7 @@ Navigate to the "Security Credentials" tab under the selected user after verfiyi
 
 ![image1.12](images/image1.12.png)
 
-## AWS Role Access Keys
+### AWS Role Access Keys
 On the "Retrieve access keys" page, copy the unqiue "Access key" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
 On the same page, copy the unique "Secret access key" to use as the "AWS Role Secret Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
