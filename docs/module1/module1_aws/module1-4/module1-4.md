@@ -36,8 +36,7 @@ For the purposes of this lab:
 ![image1.4.5](images/image1.4.5.png)
 
   
-## Change Advanced Schema Options. 
-Click “Enable Schema Options.”
-- **(a)** Change “Link Field” to URL.
-- **(b)** Change “Document Name Field” to request.
-- **(c)** Click “Enable Advanced Schema.”
+## Change Advanced Schema Options 
+For the purposes of this lab, set all fields to "Default", then click “Enable Advanced Schema.”
+
+![image1.4.6](images/image1.4.6.png)
