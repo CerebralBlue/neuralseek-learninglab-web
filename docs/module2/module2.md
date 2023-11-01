@@ -12,9 +12,6 @@ Welcome to the Learning Lab, a platform dedicated to empowering you in the seaml
 The purpose of **Module 2: Using NeuralSeek**  is to highlight the key features of NeuralSeek that are instrumental in training virtual agents, including customer-facing chatbots and Natural Language Processing systems. These features not only facilitate natural language responses but also ensure the prevention of hallucinated outputs, automate language translation processes, and protect user's private identifying information. Recognizing that the quality of generated AI responses hinges on the integrity of the underlying data, the tools featured in this module intentionally provide resources for human oversight to prevent errors and avoid biases.
 
 ### Level: Intermediate
-### Time: 15-25 minutes
+### Time: 30 minutes
 ### No Code Required
 
-**_IBM Users_** click here to continue: **[Module 2.1]({{site.baseurl}}{% link module2/module2_ibm/module2-1/module2-1.md %})**.
-
-**_AWS Users_** click here to continue: **[Module 2.1]({{site.baseurl}}{% link module2/module2_aws/module2-1/module2-1.md %})**.

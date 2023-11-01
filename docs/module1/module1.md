@@ -13,7 +13,7 @@ Welcome to the Learning Lab, a platform dedicated to empowering you in the seaml
 The purpose of **Module 1: Initial Setup of NeuralSeek - No Code Required** is to authenticate and connect NeuralSeek with a KnowledgeBase and a Virtual Agent. 
 
 ### Level: Entry
-### Time: 15 minutes
+### Time: 30 minutes
 ### No Code Required
 
 **_IBM Users_** are recommended to connect NeuralSeek with **IBM Watson Discovery** and **IBM watsonx Assistant**. Click here to continue: **[Module 1.1 - IBM]({{site.baseurl}}{% link module1/module1_ibm/module1-1/module1-1.md %})**.
