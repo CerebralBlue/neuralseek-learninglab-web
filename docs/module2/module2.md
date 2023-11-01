@@ -1,7 +1,8 @@
 ---
 title: Module 2
-permalink: /module2
+permalink: /module2/
 parent: /
+layout: chapter
 order: 2
 ---
 
