@@ -69,6 +69,7 @@ const apikey = “enter api key here” ;
 ## Update Timeout Setting
 
 Navigate to "Configuration" tab in AWS Lambda Function Console.
+
 - **(a)** In the "General Configuration" pane, click "Edit".
 - **(b)** Update under “Timeout”: set min to be “1” and sec to be “0”. This will ensure the lambda function will not time out for 1 minute.
 - **(c)** Click "Save".
@@ -82,6 +83,7 @@ For detailed information on creating a LexV2 Lambda bot from scratch, refer to t
 ## Assign Alias 
 
 Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use.
+
 - **(a)** On the left side bar menu, under “Deployment”, click “Aliases”.
 - **(b)** From the list of alias names, choose the alias name that you want to use. For this lab, we recommend “TestBotAlias”
 
@@ -90,16 +92,23 @@ Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) F
 ## Select Lanaguage
 
 Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use. 
+
 - **(a)** On the left side bar menu, click the “Languages” tab.
+
 From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “English”.
 
 ## Optional Lambda Function Connection
 
-Choose the name of the Lambda function to use, then choose the version or alias of the function. For this lab, we recommend “MyNeuralSeek”. Then, click “Save”.
+Choose the name of the Lambda function to use, then choose the version or alias of the function. 
+
+For this lab, we recommend “MyNeuralSeek”. 
+
+Click “Save”.
 
 ## Fallback Activities
 
-The default FallbackIntent allows for the Lambda function to be called when it is detected. The idea is that Lex would invoke NeuralSeek to answer whenever there is no matching intent found. To activate this, navigate to Amazon Lex in AWS Console
+The default FallbackIntent allows for the Lambda function to be called when it is detected. The idea is that Lex would invoke NeuralSeek to answer whenever there is no matching intent found. To activate this, navigate to Amazon Lex in AWS Console.
+
 - **(a)** Click “MyNeuralSeek.”
 - **(b)** Click “Intents” under “English (US)” on the left sidebar menu.
 - **(c)** Click on the “FallbackIntent” link.
@@ -111,10 +120,16 @@ Under the "Fullfillment" section, click the "Activate" icon to turn on.
 - **(a)** Click "Advanced Options"
 - **(b)** Select the “Use a Lambda Function for Fulfillment” option. 
 - **(c)** Click "Update Options."
-- **(d)** Click "Save Intent."
+- Click "Save Intent."
+
+![image1.5.13](images/image1.5.13.png)
+
+![image1.5.14](images/image1.5.14.png)
 
 Build the chatbot and test the FallbackIntent routine with a question. For the purpose of this lab, we used "Why is the sky blue?". 
 
 - **(a)** Click “Build.” This step may take a few moments.
 - **(b)** Click “Test.” The Amazon Lex chatbot will be generated. 
-- **(c)** Prompt the chatbot with a question. For the purpose of this lab, we used “Why is the sky blue?.”
+- Prompt the chatbot with a question. For the purpose of this lab, we used “Why is the sky blue?.”
+
+![image1.5.15](images/image1.5.15.png)
