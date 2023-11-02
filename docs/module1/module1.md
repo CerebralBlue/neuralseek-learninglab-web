@@ -3,7 +3,7 @@ title: Module 1
 permalink: /module1/
 parent: /
 layout: chapter
-order: 1
+order: 
 ---
 
 # Module 1: Inital Setup of NeuralSeek - No Code Required

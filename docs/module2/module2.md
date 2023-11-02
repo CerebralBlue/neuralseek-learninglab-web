@@ -3,7 +3,7 @@ title: Module 2
 permalink: /module2/
 parent: /
 layout: chapter
-order: 2
+order: 
 ---
 
 # Module 2: Using NeuralSeek
