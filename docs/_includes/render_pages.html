@@ -1,0 +1,40 @@
+{% comment %} 
+  render_pages.html:
+
+  This template recursively renders a list of pages and their sub-pages. 
+  It is designed to be used with the `side_menu.html` template, but can be used elsewhere if needed.
+
+  The template expects two variables:
+  1. pages: A list of pages to render.
+  2. current_url: The URL of the current page. Used to highlight the currently active page in the menu.
+
+  The recursion happens when, for each page in the list, it checks for its sub-pages and then includes itself 
+  (render_pages.html) to render those sub-pages.
+{% endcomment %}
+
+<ul class="nav flex-column" style="padding-inline-start: 0px;padding-left:1.2em">
+{% for page in include.pages %}
+  <li class="nav-item" style="line-height:1.5em;">
+    {% comment %} Generate the link for the page {% endcomment %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+      {% comment %} Highlight the link if it's the currently active page {% endcomment %}
+      <span {% if page.url == include.current_url %} class="current_page" {% endif %}>{{ page.title }}</span>
+    </a>
+
+    {% comment %} Determine the name of the page for fetching its sub-pages {% endcomment %}
+    {% if page.url == "/" %}
+      {% assign pagename = page.url %}
+    {% else %}
+      {% assign pagename = page.url | split: "/" | last | split: "." | first %}
+    {% endif %}
+
+    {% comment %} Fetch sub-pages of the current page based on the determined name {% endcomment %}
+    {% assign sub_modules = site.pages | where: "parent", pagename | sort: "order" %}
+
+    {% comment %} If there are sub-pages, recursively render them {% endcomment %}
+    {% if sub_modules.size > 0 %}
+      {% include render_pages.html pages=sub_modules current_url=include.current_url %}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
