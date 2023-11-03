@@ -10,9 +10,15 @@ order: 5
 ## View Example
 
 Explore outputs Generative AI-backed natural language responses based on prioritized data sources, either “Get Data,” “Modify Data,” or “Generate Data.” 
-- **(a)** On the top menu click “Explore.” 
-- **(b)** On the left menu, select “Write a prospecting email.” view the prompt. 
-- **(c)** Click “Evaluate.” 
+
+- On the top menu click “Explore.” 
+
+![image2.5.1](images/image2.5.1.png)
+
+- **(a)** On the left menu, select “Write a prospecting email.” View the prompt. 
+- **(b)** Click “Evaluate.” 
+
+![image2.5.2](images/image2.5.2.png)
 
 ## View output
 
@@ -22,6 +28,10 @@ Scroll down and read the generated response. Confirm the output is unique, click
 
 - **(a)** Click Details. View information. 
 - **(b)** Click “Close.”
+
+![image2.5.3](images/image2.5.3.png)
+
+![image2.5.4](images/image2.5.4.png)
 
 ## Prioritize KnowledgeBase data
 
