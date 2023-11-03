@@ -5,6 +5,11 @@ parent: module1
 layout: chapter
 order: 2
 ---
+
+## Module 1 - AWS
+
+The goal of **Module 1 - AWS** of the Learning Lab is to provide users with the essential steps on how to effectively incorporate NeuralSeek's advanced conversational capabilities into a current AWS environment. By the end of this module, users will have a solid understanding of the steps involved in provisioning NeuralSeek, integrating it seamlessly with an AWS Kendra instance, and setting up a seamless integration with an AWS Lex virtual agent. By leveraging the combined power of NeuralSeek and AWS's pioneering technology, prepare to enhance your technical expertise and optimize customer engagement strategies.
+
 ## Disclaimer
 
 Before participating in this Learning Lab, it is essential that users come prepared with the necessary resources to fully engage in the practical exercises. We recommend having an active instance of an:
