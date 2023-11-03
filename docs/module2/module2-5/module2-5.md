@@ -38,6 +38,8 @@ Scroll down and read the generated response. Confirm the output is unique, click
 - **(a)** In the text box, type the question or request. 
 - **(b)** From the left menu, under “Get Data,” select “KB Documentation.”
 
+![image2.5.5](images/image2.5.5.png)
+
 ## View output
 
 - **(a)** Replace “your KB query” with a brief description of the question or request, in this example it is, “blog post about ________.” 
