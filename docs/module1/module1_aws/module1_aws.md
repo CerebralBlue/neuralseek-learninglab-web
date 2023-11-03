@@ -6,11 +6,11 @@ layout: chapter
 order: 2
 ---
 
-## Module 1 - AWS
+# Module 1 - AWS
 
 The goal of **Module 1 - AWS** of the Learning Lab is to provide users with the essential steps on how to effectively incorporate NeuralSeek's advanced conversational capabilities into a current AWS environment. By the end of this module, users will have a solid understanding of the steps involved in provisioning NeuralSeek, integrating it seamlessly with an AWS Kendra instance, and setting up a seamless integration with an AWS Lex virtual agent. By leveraging the combined power of NeuralSeek and AWS's pioneering technology, prepare to enhance your technical expertise and optimize customer engagement strategies.
 
-## Disclaimer
+# Disclaimer
 
 Before participating in this Learning Lab, it is essential that users come prepared with the necessary resources to fully engage in the practical exercises. We recommend having an active instance of an:
 
@@ -21,14 +21,18 @@ Before participating in this Learning Lab, it is essential that users come prepa
 
 Please be aware that any purchases or subscriptions related to the aforementioned tools must be made independently by the users. Additionally, to access NeuralSeek functionalities within the lab, users are required to have an active subscription to NeuralSeek on the AWS Marketplace. It is the responsibility of each participant to understand and manage the associated costs related to the use of NeuralSeek and any other integrated services within their AWS environment. Kindly ensure that all necessary resources are set up and accessible prior to beginning the Learning Lab for a seamless and enriching experience.
 
-## AWS Access Keys
+# AWS Access Keys Information
+
 ### Access Amazon Kendra
+
 Navigate to "Amazon Kendra" on AWS Console account.
+
 - **(a)** Click "Create an Index."
 
 ![image1.1](images/image1.1.png)
 
 ### Specify Index Details 
+
 - **(a)** Add an "Index name."
 - **(b)** Click "Create a New Role" under IAM Role drop down menu.
 - **(c)** Add a "Role name." 
@@ -39,24 +43,29 @@ Navigate to "Amazon Kendra" on AWS Console account.
 ![image1.3](images/image1.3.png)
 
 ### Configure User Access Control
+
 Select desired options for "Access Control Settings" and "User-group expansion." Then click "Next."
 
 ![image1.4](images/image1.4.png)
 
 ### Add Additional Capacity
+
 Select desired option for "Provisioning Editions." Then. click "Next."
 
 ![image1.5](images/image1.5.png)
 
 ### Review and Create
+
 Review the details on the page, then click "Create". Propagating IAM Role and creating the Index can take up to 30 minutes. 
 
 ![image1.6](images/image1.6.png)
 
 ### Kendra Index ID
+
 Under "Index Setting" section, copy the unqiue "Index ID" to use as the "Kendra Index ID" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
 ### Create User
+
 Navigate to IAM in the AWS Console.
 
 ![image1.7](images/image1.7.PNG)
@@ -79,6 +88,7 @@ Navigate to IAM in the AWS Console.
 - **(g)** Review the details, then click "Create User" to create the user. 
 
 ### Create Access Key
+
 Navigate to the "Security Credentials" tab under the selected user after verfiying that the user is added to the correct group. 
 - **(a)** In the "Access keys" section, click "Create access key."
 
@@ -91,6 +101,7 @@ Navigate to the "Security Credentials" tab under the selected user after verfiyi
 ![image1.12](images/image1.12.png)
 
 ### AWS Role Access Keys
+
 On the "Retrieve access keys" page, copy the unqiue "Access key" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
 On the same page, copy the unique "Secret access key" to use as the "AWS Role Secret Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
