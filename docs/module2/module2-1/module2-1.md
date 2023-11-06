@@ -39,7 +39,7 @@ View the high coverage score for the question, “What is NeuralSeek's Curate fe
 
 ## Compare Confidence Score
 
-- **(a)** In the text box type the question, in this example, “What is _______?” 
+- **(a)** In the text box type the question, in this example, “What is NeuralSeek's Seek feature?” 
 - **(b)** Click “Seek.” 
 - **(c)** View the large and highlighted text in the Generative AI response, this response is generated from content found in the selected KnowledgeBase resources.
 
@@ -50,22 +50,28 @@ View the high coverage score for the question, “What is NeuralSeek's Curate fe
 - **(a)** Match the colors. The color of the highlighted text in the AI-generated response matches the listed KnowledgeBase content. 
 - **(b)** View the high alignment in this example, most content is over 95% with a few resources at or near 90%.
 
+![image2.1.6](images/image2.1.6.png)
+
 ## Compare a more nuanced question
 
-- **(a)** Type, “Why should I use NeuralSeek with AWS Lex instead of just ChatGPT?” 
-(b) Click “Seek.” 
-(c) View the single words highlighted in multiple colors. Unlike the question, “What is_________?” This response is key words and reference materials.
+- **(a)** Type, “Why should I use NeuralSeek with a KnowledgeBase instead of just ChatGPT?” into the search bar and click "Seek". 
+- **(b)** View the single words highlighted in multiple colors. Unlike the question, “What is NeuralSeek's Seek feature?”, this response is key words and reference materials.
+
+![image2.1.7](images/image2.1.7.png)
 
 ## Seek information
 
 Scroll down to view the Total Response Time, Semantic Match, Semantic Analysis, KnowledgeBase Confidence, KnowledgeBase Coverage, KnowledgeBAse Response Time, KnowledgeBase Results, and KnowledgeBase Context.
 
+![image2.1.9](images/image2.1.9.png)
+
 ## Additional descriptions
 
-- **(a)** On the right side, click the “v.” 
+- **(a)** On the right side, click the caret symbol. 
 - **(b)** View the actual source, click the blue text.
+
+![image2.1.8](images/image2.1.8.png)
 
 ## Ask additional questions
 
-- **(a)** Ask a variety of questions including, “What is______?” or “What are some of the features of ________?” or “Who is the CEO of AWS?” 
-- **(b)** Finally, ask “What is the latest _________ release?”
+- **(a)** Ask a variety of questions.
