@@ -1,5 +1,5 @@
 ---
-title: Module 1.1
+title: Module 1.1 - Launch NeuralSeek
 permalink: /module1/module1_ibm/module1-1/
 parent: module1_ibm
 order: 1

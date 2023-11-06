@@ -1,5 +1,5 @@
 ---
-title: Module 2.5
+title: Module 2.5 Explore
 permalink: /module2/module2-5/
 parent: module2
 order: 5
@@ -42,7 +42,7 @@ Scroll down and read the generated response. Confirm the output is unique, click
 
 ## View output
 
-- **(a)** Replace “your KB query” with a brief description of the question or request, in this example it is, “blog post about ________.” 
+- **(a)** Replace “your KB query” with a brief description of the question or request. 
 - **(b)** Click “Evaluate.” Review output.
 
 ## Shorten output

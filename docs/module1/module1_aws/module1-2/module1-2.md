@@ -1,64 +1,45 @@
 ---
-title: Module 1.2
+title: Module 1.2 - Configure KnoweldgeBase
 permalink: /module1/module1_aws/module1-2/
 parent: module1_aws
 order: 2
 ---
 
-# Module 1.2 - NeuralSeek Instance Control
+# Module 1.2 - Configure KnowledgeBase with NeuralSeek
 
-## Create a User
+## Configure
 
-You will need to have a viable user to be able to connect to instances.
+Navigate to the “Configure” tab in NeuralSeek.
 
-- **(a)** Enter email address into “Add User (Email)” box. 
-- **(b)** Click on the "plus" symbol to add a user.
+![image1.4.1](images/image1.4.1.png)
 
-![image1.2.1](images/image1.2.1.png)
+## Corporate KnowledgeBase Details
 
-## Generate Password
+Click the “Corporate KnowledgeBase Details” drop down menu. 
 
-- **(a)** Newly created user’s email will populate below.
-- **(b)** A new password will be generated. Passwords can be changed later, refer [here](module1_aws/module1-3.md).
+![image1.4.2](images/image1.4.2.png)
 
-![image1.2.2](images/image1.2.2.png)
+## Select KnowledgeBase
 
-## Create an Instance
-
-Generating an instance at this stage will not initiate any server activity. Creating an instance merely establishes a unique identifier within the database, enabling authentication and access to the system.
-
-- **(a)** Select desired location in the “Create Instance” box. For this lab, we recommend “US-West-2.”
-- **(b)** Click the “plus” symbol to create an instance.
+- **(a)** Select desired KnowledgeBase from the drop down menu. For the purpose of this lab, we recommend "**Elastic AppSearch**." 
+- **(b)** Select desired language. For the purpose of this lab, click "English." 
   
-![image1.2.3](images/image1.2.3.png)
+![image1.4.3](images/image1.4.3_updated.png)
 
-## Update Instance Name
+![image1.4.4](images/image1.4.4_updated.png)
 
-The newly created instance will populate below and an instance ID will be generated.
+## Add KnowledgeBase Information
 
-- **(a)** Click the “writing tool” symbol.
-- **(b)** Enter desired instance name into text box. For the purpose of this lab, we recommend “learning-lab-test”. 
-- **(c)** Click the “writing tool” symbol to save changes. 
-- **(d)** Updated instance name will populate. 
-  
-![image1.2.4](images/image1.2.4.png)
+User is responsible for providing selected KnowledgeBase detail information. Since it takes time to set these up for yourself, we are going to be using the one that is already prepared for the learning lab, with read-only access. The actual values below will be provided during the course of this lab by the lab instructor.
 
-![image1.2.5](images/image1.2.5.png)
+Please enter the following:
 
-![image1.2.6](images/image1.2.6.png)
+- **(a)** Add "Elastic AppSearch Endpoint".
+- **(b)** Add "AppSearch Private API Key".
+- **(c)** Add "AppSearch Engine Name".
 
-## Connect
+![image1.4.5](images/image1.4.5.png)
+ 
+Click "Save" button at the bottom.
 
-To allow the user to connect to the instance:
-
-- **(a)** Click ‘Configure User Access to Instances’ “plus” symbol.
-- **(b)** Click the “plus” symbol.
-- **(c)** User is now able to connect to the instance.
-  
-![image1.2.7](images/image1.2.7.png)
-
-![image1.2.8](images/image1.2.8.png)
-
-![image1.2.9](images/image1.2.9.png)
-
-![image1.2.10](images/image1.2.10.png)
+![image1.4.6](images/image1.4.6.png)

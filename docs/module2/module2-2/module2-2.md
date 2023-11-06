@@ -1,5 +1,5 @@
 ---
-title: Module 2.2
+title: Module 2.2 Curate
 permalink: /module2/module2-2/
 parent: module2
 order: 2
@@ -10,7 +10,7 @@ order: 2
 ## Correcting wrong answers
 
 - **(a)** On the top menu, click “Curate.” 
-- **(b)** Select the intent “FAQ-analytics_developments_aws_technology,” click the dropdown caret symbol. 
+- **(b)** Select the intent “FAQ-llms_supported” click the dropdown caret symbol. 
 - **(c)** Read the answer. In this example, NeuralSeek generated an inaccurate answer because the content in KnowledgeBase is outdated.
 
 ![image2.2.1](images/image2.2.1.png)
