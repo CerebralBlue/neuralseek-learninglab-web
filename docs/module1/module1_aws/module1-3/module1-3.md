@@ -126,7 +126,7 @@ Under the "Fullfillment" section, click the "Activate" icon to turn on.
 
 ![image1.5.14](images/image1.5.14.png)
 
-Build the chatbot and test the FallbackIntent routine with a question. For the purpose of this lab, we used "Why is the sky blue?". 
+Build the chatbot and test the FallbackIntent routine with a question. 
 
 - **(a)** Click “Build.” This step may take a few moments.
 - **(b)** Click “Test.” The Amazon Lex chatbot will be generated. 

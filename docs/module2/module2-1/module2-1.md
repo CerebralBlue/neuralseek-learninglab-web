@@ -1,5 +1,5 @@
 ---
-title: Module 2.1 Seek
+title: Module 2.1 - Seek
 permalink: /module2/module2-1/
 parent: module2
 order: 1

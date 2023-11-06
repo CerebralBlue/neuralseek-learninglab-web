@@ -1,5 +1,5 @@
 ---
-title: Module 2.2 Curate
+title: Module 2.2 - Curate
 permalink: /module2/module2-2/
 parent: module2
 order: 2

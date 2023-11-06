@@ -1,5 +1,5 @@
 ---
-title: Module 2.5 Explore
+title: Module 2.5 - Explore
 permalink: /module2/module2-5/
 parent: module2
 order: 5

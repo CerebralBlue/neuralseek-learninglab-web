@@ -1,5 +1,5 @@
 ---
-title: Module 2.4 Logs
+title: Module 2.4 - Logs
 permalink: /module2/module2-4/
 parent: module2
 order: 4
