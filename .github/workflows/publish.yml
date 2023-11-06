@@ -21,6 +21,12 @@ jobs:
           # fetch all branches
           fetch-depth: 0
 
+      # set user info
+      - name: Set user info
+        run: |
+          git config --global user.email "automation@github.com"
+          git config --global user.name "Automation"
+
       # merge the publish with main
       - name: merge branch
         run: |
