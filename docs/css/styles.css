@@ -1,151 +1,158 @@
 @media (prefers-color-scheme: dark) {
-    .hr_menu {
-      color-scheme: dark;
-      --color-neuralseek-menu-selected: #FFFFFF;
-      --color-neuralseek-menu-hover: #528be8;
-    }
-    .current_page {
-      color-scheme: dark;
-      --selected: white;
-    }
-    .content {
-      color-scheme: dark;
-      --pre: light-gray;
-    }
+  .hr_menu {
+    color-scheme: dark;
+    --color-neuralseek-menu-selected: #FFFFFF;
+    --color-neuralseek-menu-hover: #528be8;
   }
-  
-  @media (prefers-color-scheme: light) {
-    .hr_menu {
-      color-scheme: light;
-      --color-neuralseek-menu-selected: #FFFFFF;
-      --color-neuralseek-menu-hover: #528be8;
-    }
-    .current_page {
-      color-scheme: light;
-      --selected: white;
-    }
-    .content {
-      color-scheme: light;
-      --pre: light-gray;
-    }
+  .current_page {
+    color-scheme: dark;
+    --selected: white;
   }
+  .content {
+    color-scheme: dark;
+    --pre: light-gray;
+  }
+}
 
-  /* for smaller screens */
-  @media (max-width: 600px) {
-    .title {
-      flex-direction: row;
-    }
-    .logo, 
-    .top-menu {
-      flex:auto;
-    }
+@media (prefers-color-scheme: light) {
+  .hr_menu {
+    color-scheme: light;
+    --color-neuralseek-menu-selected: #FFFFFF;
+    --color-neuralseek-menu-hover: #528be8;
   }
+  .current_page {
+    color-scheme: light;
+    --selected: white;
+  }
+  .content {
+    color-scheme: light;
+    --pre: light-gray;
+  }
+}
+
+/* for smaller screens */
+@media (max-width: 600px) {
+  .title {
+    flex-direction: row;
+  }
+  .logo, 
+  .top-menu {
+    flex:auto;
+  }
+}
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    min-height: 100vh;
-    display:flex; 
-    flex-direction:row; 
-    justify-content:center;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  display:flex; 
+  flex-direction:row; 
+  justify-content:center;
 }
 
 .title {
-  display: block;
-  text-align: center;
+display: block;
+text-align: center;
 }
 
 .logo {
-  flex: 1;
-  padding: 30px;
-  text-align: center;
+flex: 1;
+padding: 30px;
+text-align: center;
 }
 
 .logo img {
-  min-height: 100px;
-  width: 70%;
-  display: block;
+min-height: 100px;
+width: 70%;
+display: block;
 }
 
 .top-menu {
-    flex: 1;
-    padding: 10px;
-    font-size: 1.3em;
+  flex: 1;
+  padding: 10px;
+  font-size: 1.3em;
 }
 
 div.logo-50 {
-  text-align: center;
-  padding: 20px;
+text-align: center;
+padding: 20px;
 }
 
 a.selected {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 a:hover {
-  text-decoration: none !important;
-  color: white;
+text-decoration: none !important;
+color: white;
 }
 
 a span {
-  text-decoration: none !important;
+text-decoration: none !important;
 }
 
 a span:hover {
-  color: var(--color-neuralseek-menu-hover) !important;
-  text-decoration: none !important;
+color: var(--color-neuralseek-menu-hover) !important;
+text-decoration: none !important;
 }
 
 main img {
-    display: block;
-    width: 80%;
-    height: auto;
-    border-radius: 12px;
+  display: block;
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
 }
 
 .hr_menu {
-    list-style: none;
-    padding-left: 20px;
-    padding-right: 20px;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hr_menu li {
-    display: inline-block;
-    border-radius: 10px;
-  }
+  display: inline-block;
+  border-radius: 10px;
+  background: var(--color-canvas-sidebar);
+}
 
 .hr_menu li a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #F0F0F0;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  text-decoration: none;
+  color: #F0F0F0;
 }
 
 .hr_menu li:hover {
-    background-color: var(--color-neuralseek-menu-hover);
+  background-color: var(--color-neuralseek-menu-hover);
 }
 
 .hr_menu li:hover a {
-    color: white !important;
-    text-decoration: none !important;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .current_page {
-    color: var(--selected);
-    font-weight: bolder;
+  color: var(--selected);
+  font-weight: bolder;
 }
 
 .content pre {
-    color: var(--pre);
+  color: var(--pre);
 }
 
 .copyright {
-  padding-top: 100px;
-  width:100%;
-  text-align: center;
-  padding-bottom: 30px;
+padding-top: 100px;
+width:100%;
+text-align: center;
+padding-bottom: 30px;
 }
 
 code {
-  color:aliceblue;
+color:aliceblue;
+}
+
+.header-bg {
+background-color: var(--color-canvas-sidebar);
 }
