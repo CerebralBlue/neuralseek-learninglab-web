@@ -45,17 +45,25 @@ Scroll down and read the generated response. Confirm the output is unique, click
 - **(a)** Replace “your KB query” with a brief description of the question or request. 
 - **(b)** Click “Evaluate.” Review output.
 
+![image2.5.6](images/image2.5.6.png)
+
+![image2.5.7](images/image2.5.7.png)
+
 ## Shorten output
 
-- **(a)** From the left menu, under “Modify Data,” select “Summarize.” 
+- **(a)** From the left menu under “Modify Data,” click “Summarize.” 
 - **(b)** Replace the value with “100.” 
 - **(c)** Click “Evaluate.” Review output.
 
+![image2.5.8](images/image2.5.8.png)
+
 ## Prioritize a single document
 
-- **(a)** Type a question or request in the text box, this example is to write a campaign email using a specific customer success story. 
-- **(b)** On the left menu, click “Upload Document.” 
+- **(a)** Type a question or request in the text box. In this example, "Write a marketing email promoting this customer success story."
+- **(b)** On the left menu under "Get Data", click “Upload Document.” 
 - **(c)** Select the preferred document, click “Open.”
+
+![image2.5.9](images/image2.5.9.png)
 
 ## Evaluate output
 
@@ -63,24 +71,24 @@ Scroll down and read the generated response. Confirm the output is unique, click
 - **(b)** Click on the document to bring the contents into the prompt. 
 - **(c)** Click “Evaluate.”
 
+![image2.5.10](images/image2.5.10.png)
+
 ## Review details of output
 
-Scroll down to read the email campaign. Notice how the output used specific information from the uploaded document throughout the response.
+Scroll down to read the generated promotional email. Notice how the output used specific information from the uploaded document throughout the response.
+
+![image2.5.11](images/image2.5.11.png)
 
 ## Prioritize a webpage
 
 - **(a)** Type a question or a request, in this example it is, “Write a cited article on prompt engineering using this website.” 
-- **(b)** On the left menu, select “Website Text.”
+- **(b)** On the left menu under "Get Data", select “Website Text.” Copy the URL of a text-based website page and paste the URL into the “https://yourwebpage.com” prompt.
+- **(c)** On the left menu under "Modify Data", click “Summarize.” 
+- **(d)** Click “Evaluate" and review output.
 
-## Choose a Webpage 
+![image2.5.12](images/image2.5.12.png)
 
-Copy the URL of a text-based website page.
-
-## Paste the URL
-
-- **(a)** Paste the URL into the “https://yourwebpage.com” 
-- **(b)** On the left menu, click “Summarize.” 
-- **(c)** Click “Evaluate.” Review output.
+![image2.5.13](images/image2.5.13.png)
 
 ## Continue to Explore 
 
