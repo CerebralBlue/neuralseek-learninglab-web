@@ -81,7 +81,7 @@ Scroll down to read the generated promotional email. Notice how the output used 
 
 ## Prioritize a webpage
 
-- **(a)** Type a question or a request, in this example it is, “Write a cited article on prompt engineering using this website.” 
+- **(a)** Type a question or a request, in this example it is, “Write a cited article on NeuralSeek's features using this website.” 
 - **(b)** On the left menu under "Get Data", select “Website Text.” Copy the URL of a text-based website page and paste the URL into the “https://yourwebpage.com” prompt.
 - **(c)** On the left menu under "Modify Data", click “Summarize.” 
 - **(d)** Click “Evaluate" and review output.
