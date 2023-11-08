@@ -34,7 +34,7 @@ Click “Delete”. Wait for the system to train.
 ## Delete Conditions
 
 - **(a)** On the left menu, click 1.
-- **(b)** Delete the condition, on the right side of conditions “if _ of this is true:_ and_” click the “x”.
+- **(b)** Delete the condition, click the “x”.
  
 ![image1.6.4](images/image1.6.4.png)
 

@@ -7,6 +7,8 @@ order: 5
 
 # Module 2.5 NeuralSeek Explore
 
+NeuralSeek's "Explore" platform offers an open-ended playground for retrieval augmented generation. "Explore" streamlines the interaction with Language Models, making it accessible and user-friendly while providing powerful tools for content retrieval and enhancement.
+
 ## View Example
 
 Explore outputs Generative AI-backed natural language responses based on prioritized data sources, either “Get Data,” “Modify Data,” or “Generate Data.” 
@@ -33,7 +35,9 @@ Scroll down and read the generated response. Confirm the output is unique, click
 
 ![image2.5.4](images/image2.5.4.png)
 
-## Prioritize KnowledgeBase data
+## Use Data from a KnowledgeBase
+
+Users can query KnowledgeBases and retrieve information based on specific search terms or queries.
 
 - **(a)** In the text box, type the question or request. 
 - **(b)** From the left menu, under “Get Data,” select “KB Documentation.”
@@ -57,7 +61,9 @@ Scroll down and read the generated response. Confirm the output is unique, click
 
 ![image2.5.8](images/image2.5.8.png)
 
-## Prioritize a single document
+## Use Data from a Document
+
+Users can access content from local files such as PDFs, Docs, CSVs, XLS, and TXT.
 
 - **(a)** Type a question or request in the text box. In this example, "Write a marketing email promoting this customer success story."
 - **(b)** On the left menu under "Get Data", click “Upload Document.” 
@@ -79,14 +85,17 @@ Scroll down to read the generated promotional email. Notice how the output used 
 
 ![image2.5.11](images/image2.5.11.png)
 
-## Prioritize a webpage
+## Use Data from a Webpage
+
+Users can extract data from websites, fetching content as needed.
 
 - **(a)** Type a question or a request, in this example it is, “Write a cited article on NeuralSeek's features using this website.” 
 - **(b)** On the left menu under "Get Data", select “Website Text.” Copy the URL of a text-based website page and paste the URL into the “https://yourwebpage.com” prompt.
 - **(c)** On the left menu under "Modify Data", click “Summarize.” 
-- **(d)** Click “Evaluate" and review output.
+- **(d)** Click "Send to LLM" to call the Language Model for answer generation. 
+- **(e)** Click “Evaluate" and review output.
 
-![image2.5.12](images/image2.5.12.png)
+![image2.5.12](images/image2.5.12_updated.png)
 
 ![image2.5.13](images/image2.5.13.png)
 
