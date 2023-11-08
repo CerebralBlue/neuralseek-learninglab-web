@@ -1,5 +1,5 @@
 ---
-title: Module 1
+title: Module 1 - Configuration & Integration
 permalink: /module1/
 parent: /
 layout: chapter

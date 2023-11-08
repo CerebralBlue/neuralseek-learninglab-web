@@ -1,5 +1,5 @@
 ---
-title: Module 2
+title: Module 2 - S.C.A.L.E.
 permalink: /module2/
 parent: /
 layout: chapter
