@@ -12,7 +12,7 @@ NeuralSeek's Seek feature enables users to test questions and generate answers u
 ## Seek a question not in the KnowledgeBase
 
 - **(a)** On the top menu, click “Seek.” 
-- **(b)** In the text box type the question, in this example, **“What is the formula for pi?”**. 
+- **(b)** In the text box type the question, in this example, **“What is the formula for pi?”**[^1]. 
 - **(c)** Click “Seek.” 
 - **(d)** View the low KnowledgeBase Confidence and KnowledgeBase Coverage. There is no content in the selected KnowledgeBase resources on the formula for pi. 
 
@@ -20,9 +20,9 @@ NeuralSeek's Seek feature enables users to test questions and generate answers u
 
 ## Compare Confidence Score
 
-> ❕ Use the example question below if the KnowledgeBase is connected with NeuralSeek documentation.  
+Ask a question based on the content in the connected KnowledgeBase.
 
-- **(a)** In the text box type the question, in this example, **“What is NeuralSeek's Seek feature?”**. 
+- **(a)** In the text box type the question, in this example, **“What is NeuralSeek's Seek feature?”**[^1]. 
 - **(b)** Click “Seek.” 
 - **(c)** View the large and highlighted text in the Generative AI response, this response is generated from content found in the selected KnowledgeBase resources.
 
@@ -37,8 +37,8 @@ NeuralSeek's Seek feature enables users to test questions and generate answers u
 
 ## Compare a more nuanced question
 
-- **(a)** Type, “**Why should I use NeuralSeek with a KnowledgeBase instead of just ChatGPT?**” into the search bar and click "Seek". 
-- **(b)** View the single words highlighted in multiple colors. Unlike the question, “**What is NeuralSeek's Seek feature?**”, this response is key words and reference materials.
+- **(a)** Type, “**Why should I use NeuralSeek with a KnowledgeBase instead of just ChatGPT?**[^1]” into the search bar and click "Seek". 
+- **(b)** View the single words highlighted in multiple colors. Unlike the question, “**What is NeuralSeek's Seek feature?**[^1]”, this response is key words and reference materials.
 
 ![image2.1.7](images/image2.1.7.png)
 
@@ -67,5 +67,10 @@ NeuralSeek provides a brief description of each source referenced in the Knowled
 
 ## Ask additional questions
 
-Optionally, ask a variety of questions that pertain to your knowledge source to continue exploring. 
+Optionally, ask a variety of questions that pertain to your knowledge source to continue exploring. Here are some sample questions to ask based on our NeuralSeek KnowledgeBase:
+- How does NeuralSeek protect private information? [^1]
+- What languages does NeuralSeek support? [^1]
+- Why is user intent categorization important?[^1]
 
+
+[^1]: ❕ Use the example question below if the KnowledgeBase is connected with NeuralSeek documentation. 

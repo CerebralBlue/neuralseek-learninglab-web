@@ -45,7 +45,7 @@ Complete required form.
 
 This section will automatically populate. Review the steps below to ensure accuracy. 
 
-- **(a)** Edit the NeuralSeek generated company or organization description.
+- **(a)** Optionally edit the NeuralSeek generated company or organization description.
 - **(b)** Select which virtual agent framework, in this example “watsonx Assistant Actions”.
 - **(c)** Enable or disable embedded links into return responses.
 - **(d)** Click “Next”.
