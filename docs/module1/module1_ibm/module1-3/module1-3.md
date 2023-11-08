@@ -41,7 +41,8 @@ To proceed you must add the NeuralSeek Api_file in the box “Drag and drop file
 
 ## Download the NeuralSeek OpenAPI_file
 
-Open NeuralSeek. 
+Navigate to the NeuralSeek user interface. 
+
 - **(a)** On the top menu, click “Integrate”
 - **(b)** On the left menu, click “Watson Custom Extension.”
 - **(c)** To download the file in point 3, click “Custom Extension OpenApi_file.
@@ -62,7 +63,7 @@ View NeuralSeek.json file. Click “Next.”
 
 ![image1.3.8](images/image1.3.8.png)
 
-## Complete Custome Extension
+## Complete Custom Extension
 
 Review extension. Click “Finish.”
 

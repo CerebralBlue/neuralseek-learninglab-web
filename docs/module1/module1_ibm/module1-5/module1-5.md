@@ -36,7 +36,7 @@ Search and select “NeuralSeek”.
 
 ## NeuralSeek Starter Kit
 
-Click “Start this starter kit”.
+Click “Select this starter kit”.
 
 ![image1.5.5](images/image1.5.5.png)
 
@@ -49,7 +49,7 @@ Click “Add templates".
 ## View Inactive Actions
 
 - **(a)** On the left menu, select “Actions”.
-- **(b)** Under All items, select “Created by you”. On the right side under status, view the red circle on “NeuralSeek search”.
+- **(b)** Under All items, select “Created by you”. On the right side under status, view the red circle on “NeuralSeek search”. At this stage, the circle is red because the integrations are added, but not yet connected to the underlying extension.
 - **(c)** Open the action, click “NeuralSeek search”.
 
 ![image1.5.7](images/image1.5.7.png)
@@ -117,6 +117,6 @@ In the top right corner, click "x" to close.
 
 ## Confirm Status
 
-On the right side, view the green circle with a check mark next to NeuralSeek search.
+On the right side, view the green circle with a check mark next to NeuralSeek search. The circle is now green because the integrations are properly connected to the extension and ready to use. 
 
 ![image1.5.18](images/image1.5.18.png)

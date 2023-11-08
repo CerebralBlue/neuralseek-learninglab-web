@@ -26,7 +26,7 @@ Click “Launch NeuralSeek”.
 
 Complete required form. 
 - **(a)** Enter the company name or organization display name.
-- **(b)** Select output language.
+- **(b)** Select output language. For the purpose of this lab we recommend English. 
 - **(c)** Start training NeuralSeek AI by checking the purpose of the virtual agent. Choose “Internal” or “External”.
 - **(d)** Click “Next”.
 
@@ -42,6 +42,8 @@ Complete required form.
 ![image1.1.4](images/image1.1.4.png)
 
 ## About Information
+
+This section will automatically populate. Review the steps below to ensure accuracy. 
 
 - **(a)** Edit the NeuralSeek generated company or organization description.
 - **(b)** Select which virtual agent framework, in this example “watsonx Assistant Actions”.

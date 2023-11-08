@@ -7,8 +7,7 @@ order: 2
 
 # Module 1.2: Setup watsonx Assistant
 
-Module 1.2 is only required if you do not currently have watsonx Assistant. 
-If you do have watsonx Assistant skip to [Module 1.3]({{site.baseurl}}{% link module1/module1_ibm/module1-3/module1-3.md %}).
+> **❕ Complete Module 1.2 if you _do not_ currently have watsonx Assistant. If you do have watsonx Assistant, skip to [Module 1.3]({{site.baseurl}}{% link module1/module1_ibm/module1-3/module1-3.md %}).**
 
 ## Create Resource
 
@@ -50,7 +49,7 @@ Click “Launch Watson Assistant”.
 ## Continue with the Watson Assistant
 
  Complete the required information. 
- - **(a)** Select deployment plan, industry, team role, role, needs. 
+ - **(a)** Select deployment plan, industry, team role, role, needs. In this example, ....
  - **(b)** Click “Next”.
 
  ![image1.2.6](images/image1.2.6.png)
