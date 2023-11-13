@@ -98,6 +98,7 @@ window.watsonAssistantChatOptions = {
 		instance.on({ type: 'customResponse', handler: customResponseHandler });
 		instance.on({ type: 'pre:receive', handler: preReceiveHandler });
 		instance.render(); 
+        instance.updateLauncherGreetingMessage('');
         // commenting out toast for learning lab.
 		//setTimeout(function() { nsToast()}, 100);
 	}
