@@ -3,6 +3,7 @@ title: Module 1 - Configuration & Integration
 permalink: /module1/
 parent: /
 layout: chapter
+start_button: false
 order: 1
 ---
 
