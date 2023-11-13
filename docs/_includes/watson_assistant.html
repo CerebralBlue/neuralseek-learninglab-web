@@ -94,11 +94,12 @@ window.watsonAssistantChatOptions = {
                 }
             }
         }
-		instance.showLauncherGreetingMessage(1000);
+		// instance.showLauncherGreetingMessage(1000);
 		instance.on({ type: 'customResponse', handler: customResponseHandler });
 		instance.on({ type: 'pre:receive', handler: preReceiveHandler });
 		instance.render(); 
-		setTimeout(function() { nsToast()}, 100);
+        // commenting out toast for learning lab.
+		//setTimeout(function() { nsToast()}, 100);
 	}
   };
   setTimeout(function(){
