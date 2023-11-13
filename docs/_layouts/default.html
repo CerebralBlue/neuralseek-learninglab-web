@@ -58,40 +58,6 @@
       <div class="content" style="padding-left:30px;padding-right:30px;">
       {{ content }}
       </div>
-      <div class="hr_menu" style="text-align:right">
-        <hr />
-        {% for p in site.pages %}
-          {% assign p_name = p.url | split: '/' | last %}
-          {% if p_name == page.parent %}
-            {% assign parent_page = p %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
-        {% assign sibling_pages = site.pages | where: "parent", page.parent | sort: "order" %}
-        {% for sibling_page in sibling_pages %}
-          {% if sibling_page.url == page.url %}
-            {% unless forloop.first %}
-              {% assign prev_index = forloop.index0 | minus:1 %}
-              {% assign prev_page = sibling_pages[prev_index] %}
-            {% endunless %}
-            {% unless forloop.last %}
-              {% assign next_index = forloop.index0 | plus:1 %}
-              {% assign next_page = sibling_pages[next_index] %}
-            {% endunless %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
-        <ul>
-          {% if prev_page %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}{{ prev_page.url }}">&lt;&lt; PREV: {{ prev_page.title }}</a></li>
-          {% endif %}
-          {% if next_page %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}{{ next_page.url }}">NEXT: {{ next_page.title }} &gt;&gt;</a></li>
-          {% elsif parent_page %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}{{ parent_page.url }}">🛑 FINISHED</a></li>
-          {% endif %}
-        </ul>
-      </div>
     </main>
     <!-- Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

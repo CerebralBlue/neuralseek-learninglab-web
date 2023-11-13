@@ -65,13 +65,6 @@
               {% assign pagename = "/" %}
           {% endif %}
           {% assign pages = site.pages | where: "parent", pagename | sort: "order" %}
-          {% assign first_page = pages | first %}
-          {% if page.start_button == nil or page.start_button == true %}
-          <ul>
-            <li><a href="{{ site.url }}{{ site.baseurl }}{{ first_page.url }}">▶️ START THE LAB</a></li>
-          </ul>
-          {% endif %}
-          <hr />
           <ul>
           {% for apage in pages %}
               <li><a href="{{ site.url }}{{ site.baseurl }}{{ apage.url }}">{{ apage.title }}</a></li>
