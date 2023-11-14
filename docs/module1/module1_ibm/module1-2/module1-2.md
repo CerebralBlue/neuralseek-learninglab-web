@@ -33,15 +33,15 @@ Search and select “Watson Assistant”.
 ## Launch watsonx Assistant
 
 If desired, complete the “Getting Started Tutorial”. 
-Click “Launch Watson Assistant”.
+- Click “Launch Watson Assistant”.
 
 ![image1.2.4](images/image1.2.4.png)
 
 ## Create Your First Assistant
 
-- **(a)** Type assistant name. In this example, “IBM Learning Lab: NeuralSeek with Watson”
-- **(b)** Type optional description. In this example, “Learning experience to provide an immersive and hands-on approach to understanding the complexities of Watson and NeuralSeek.”.
-- **(c)** Select assistant language. In this example, “English”.
+- **(a)** Type assistant name. In this example, “**IBM Learning Lab: NeuralSeek with Watson**”
+- **(b)** Type optional description. In this example, “**Learning experience to provide an immersive and hands-on approach to understanding the complexities of Watson and NeuralSeek.**”.
+- **(c)** Select assistant language. In this example, “**English**”.
 - **(d)** Click “Next”.
 
 ![image1.2.5](images/image1.2.5.png)
@@ -49,7 +49,7 @@ Click “Launch Watson Assistant”.
 ## Continue with the Watson Assistant
 
  Complete the required information. 
- - **(a)** Select deployment plan, industry, team role, role, needs. In this example, ....
+ - **(a)** Select deployment plan, industry, team role, role, needs.
  - **(b)** Click “Next”.
 
  ![image1.2.6](images/image1.2.6.png)
@@ -67,3 +67,5 @@ Complete the required information.
 Click “Create”.
 
 ![image1.2.8](images/image1.2.8.png)
+
+> The virtual agent **IBM watsonx Assistant** is now created and ready to be connected to NeuralSeek for use. 

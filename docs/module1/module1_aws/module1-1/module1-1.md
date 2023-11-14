@@ -48,7 +48,7 @@ User Interface for AWS broker page will automatically display.
 You will need to have a viable user to be able to connect to instances.
 
 - **(a)** Enter email address into “Add User (Email)” box. 
-- **(b)** Click on the "plus" symbol to add a user.
+- **(b)** Click on the "plus" icon to add a user.
 
 ![image1.2.1](images/image1.2.1.png)
 
@@ -64,7 +64,7 @@ You will need to have a viable user to be able to connect to instances.
 Generating an instance at this stage will not initiate any server activity. Creating an instance merely establishes a unique identifier within the database, enabling authentication and access to the system.
 
 - **(a)** Select desired location in the “Create Instance” box. For this lab, we recommend “US-West-2.”
-- **(b)** Click the “plus” symbol to create an instance.
+- **(b)** Click the “plus” icon to create an instance.
   
 ![image1.2.3](images/image1.2.3.png)
 
@@ -72,9 +72,9 @@ Generating an instance at this stage will not initiate any server activity. Crea
 
 The newly created instance will populate below and an instance ID will be generated.
 
-- **(a)** Click the “writing tool” symbol.
+- **(a)** Click the “writing tool” icon.
 - **(b)** Enter desired instance name into text box. For the purpose of this lab, we recommend “learning-lab-test”. 
-- **(c)** Click the “writing tool” symbol to save changes. 
+- **(c)** Click the “writing tool” icon to save changes. 
 - **(d)** Updated instance name will populate. 
   
 ![image1.2.4](images/image1.2.4.png)
@@ -87,8 +87,8 @@ The newly created instance will populate below and an instance ID will be genera
 
 To allow the user to connect to the instance:
 
-- **(a)** Click ‘Configure User Access to Instances’ “plus” symbol.
-- **(b)** Click the “plus” symbol.
+- **(a)** Click ‘Configure User Access to Instances’ “plus” icon.
+- **(b)** Click the “plus” icon.
 - **(c)** User is now able to connect to the instance.
   
 ![image1.2.7](images/image1.2.7.png)
@@ -121,3 +121,5 @@ If desired, you are able to reset the password using the “Forgot password?” 
 Click "Continue" to be directed to the NeuralSeek user interface page. 
 
 ![image1.3.3](images/image1.3.3.png)
+
+> An active user and instance of NeuralSeek is now set up within the AWS console and ready to be connected to a KnowledgeBase.
