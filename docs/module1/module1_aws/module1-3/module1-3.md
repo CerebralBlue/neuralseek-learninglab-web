@@ -85,27 +85,25 @@ For detailed information on creating a LexV2 Lambda bot from scratch, refer to t
 Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use.
 
 - **(a)** On the left side bar menu, under “Deployment”, click “Aliases”.
-- **(b)** From the list of alias names, choose the alias name that you want to use. For this lab, we recommend “TestBotAlias”
+- **(b)** From the list of alias names, choose the alias name that you want to use. For this lab, we recommend “**TestBotAlias**”
 
 ![images1.5.11](images/image1.5.11.png)
 
 ## Select Lanaguage
 
-Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots).
+Under the chosen Alias, "**TestBotAlias**" within the [Amazon Lex console](https://console.aws.amazon.com/lexv2/home#bots):
 
-- **(a)** From the list of bots, click the name of the bot that you want to use. 
-- **(b)** On the left side bar menu, click the “Languages” tab.
-- **(c)** From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “**English**”.
+- **(a)** From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “**English**”.
 
 ![image1.5.17](images/image1.5.17.png)
 
 ## Optional Lambda Function Connection
 
-Choose the name of the Lambda function to use, then choose the version or alias of the function. 
+- **(a)** Under "Source", click the name of the alias of the Lambda function to use. For this lab, we recommend "**MyNeuralSeek**”. 
+- **(b)** Under "Lambda function version or alias", the option "**$LATEST**" will populate. 
+- **(c)** Click “Save”.
 
-For this lab, we recommend "**MyNeuralSeek**”. 
-
-Click “Save”.
+![image1.5.18](images/image1.5.18.png)
 
 ## Fallback Activities
 
