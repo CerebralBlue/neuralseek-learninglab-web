@@ -28,7 +28,7 @@ Download the Lambda Archive .zip file to your local storage.
 
 ## Create a Function
 
-Click the link to open the Functions page on the AWS Lambda console to create a function from scratch.
+Click the link to open the [Functions](https://console.aws.amazon.com/lambda/home#/functions) page on the AWS Lambda console to create a function from scratch.
 - **(a)** Select "Create Function".
 - **(b)** Add a “Function Name”. For this lab, we recommend “learning-lab”.
 - **(c)** Click “Create Function”.
@@ -91,17 +91,19 @@ Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) F
 
 ## Select Lanaguage
 
-Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use. 
+Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots).
 
-- **(a)** On the left side bar menu, click the “Languages” tab.
+- **(a)** From the list of bots, click the name of the bot that you want to use. 
+- **(b)** On the left side bar menu, click the “Languages” tab.
+- **(c)** From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “**English**”.
 
-From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “English”.
+![image1.5.17](images/image1.5.17.png)
 
 ## Optional Lambda Function Connection
 
 Choose the name of the Lambda function to use, then choose the version or alias of the function. 
 
-For this lab, we recommend “MyNeuralSeek”. 
+For this lab, we recommend "**MyNeuralSeek**”. 
 
 Click “Save”.
 
@@ -113,7 +115,7 @@ The default FallbackIntent allows for the Lambda function to be called when it i
 - **(b)** Click “Intents” under “English (US)” on the left sidebar menu.
 - **(c)** Click on the “FallbackIntent” link.
 
-![image1.5.12](images/image1.5.12.png)
+![image1.5.12](images/image1.5.12_updated.png)
 
 Under the "Fullfillment" section, click the "Activate" icon to turn on. 
 
@@ -130,6 +132,10 @@ Build the chatbot and test the FallbackIntent routine with a question.
 
 - **(a)** Click “Build.” This step may take a few moments.
 - **(b)** Click “Test.” The Amazon Lex chatbot will be generated. 
-- Prompt the chatbot with a question. For the purpose of this lab, we used “Why is the sky blue?.”
+- Prompt the chatbot with a question. For the purpose of this lab, we used “**What is NeuralSeek?**”
 
 ![image1.5.15](images/image1.5.15.png)
+
+![image1.5.16](images/image1.5.16.png)
+
+> The **AWS LexV2 Lambda** virtual agent is now setup, integrated with NeuralSeek, tested and ready for use. 

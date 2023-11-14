@@ -10,7 +10,7 @@ order: 4
 ## Get Started
 
 Authenticate NeuralSeek with watsonx Assistant.
-In this example it is, “IBM Learning Lab: NeuralSeek with Watson”.
+In this example it is, “**IBM Learning Lab: NeuralSeek with Watson**”.
 View Get started. Click “Next”.
 
 ![image1.4.1](images/image1.4.1.png)
@@ -41,3 +41,5 @@ Review the authentication.
 Click “Finish”. When it has updated, click “Close”.
 
 ![image1.4.5](images/image1.4.5.png)
+
+> The custom NeuralSeek extension integrated with IBM watsonx Assistant is now authenticated and ready for use. 

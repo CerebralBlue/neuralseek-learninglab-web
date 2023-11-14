@@ -28,7 +28,7 @@ Click “Next.”
 
 ## Basic Information
 
-- **(a)** Enter in basic information, in this example the extension name is, “IBM Learning Lab: NeuralSeek with Watson” and the Extension description is, “Participants work with NeuralSeek and Watson on AI services, gaining valuable insights into these technologies.
+- **(a)** Enter in basic information, in this example the extension name is, “**IBM Learning Lab: NeuralSeek with Watson**” and the Extension description is, “**Participants work with NeuralSeek and Watson on AI services, gaining valuable insights into these technologies.**"
 - **(b)** Click “Next.”
 
 ![image1.3.4](images/image1.3.4.png)
@@ -53,6 +53,7 @@ Navigate to the NeuralSeek user interface.
 ## Upload the OpenAPI_file
 
 Return to IBM watsonx Assistant Custom extension page. 
+
 Drag and drop or click and upload the NeuralSeek.json file into the Import OpenAPI box.
 
 ![image1.3.7](images/image1.3.7.png)
@@ -72,7 +73,7 @@ Review extension. Click “Finish.”
 ## Return to Integrations
 
 - **(a)** On the left menu, select “Integrations.”
-- **(b)** Search for the custom NeuralSeek extension, in this example it is, “IBM Learning Lab: NeuralSeek and Watson.”
+- **(b)** Search for the custom NeuralSeek extension, in this example it is, “**IBM Learning Lab: NeuralSeek and Watson.**”
 - **(c)** Click “+add.”
 
 ![image1.3.10](images/image1.3.10.png)
@@ -82,3 +83,5 @@ Review extension. Click “Finish.”
 Review custom extensions. Click “Add.”
 
 ![image1.3.11](images/image1.3.11.png)
+
+> NeuralSeek is now added as a custom extension and integrated with the virtual agent **IBM watsonx Assistant**. 
