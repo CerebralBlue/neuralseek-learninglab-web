@@ -75,7 +75,7 @@ Scroll down and click “Edit extension”.
 
 ## Choose an Extension
 
-Select NeuralSeek extension, in this example it is, “IBM Learning Lab: NeuralSeek with Watson”.
+Select NeuralSeek extension, in this example it is, “**IBM Learning Lab: NeuralSeek with Watson**”.
 
 ![image1.5.11](images/image1.5.11.png)
 
@@ -120,3 +120,5 @@ In the top right corner, click "x" to close.
 On the right side, view the green circle with a check mark next to NeuralSeek search. The circle is now green because the integrations are properly connected to the extension and ready to use. 
 
 ![image1.5.18](images/image1.5.18.png)
+
+> NeuralSeek with IBM watsonx Assistant starter kit integrations are now connected and ready for use. 

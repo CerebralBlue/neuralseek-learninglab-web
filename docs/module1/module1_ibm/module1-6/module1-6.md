@@ -9,13 +9,13 @@ order: 6
 
 ## Generative AI Reponses
 
-Setup a NeuralSeek call action to use have generative AI respond to all queries, even questions not listed in Watsonx Assistant. 
+Setup a NeuralSeek call action to use to have generative AI respond to all queries, even questions not listed in Watsonx Assistant. 
 
 - **(a)** On the left menu, select “Actions”.
 - **(b)** Under All items, select “Set by assistant”.
 - **(c)** Select “No action matches”.
   
-*No action matches are cases when a user asks a question not listed in IBM Watsonx Assistant predefined responses*.
+> *"No action matches" are cases when a user asks a question not listed in IBM Watsonx Assistant's predefined responses*.
 
 ![image1.6.1](images/image1.6.1.png)
 
@@ -46,7 +46,7 @@ Click “Preview”.
 
 ## View Default Responses Before Setting Up NeuralSeek Call
 
-- **(a)** Type a random question, in this example it is, “Why is the sky blue?”
+- **(a)** Type a random question, in this example it is, “**Why is the sky blue?**”
 - **(b)** Press “Enter”.
   
 View the watsonx Assistant’s default response, “I’m afraid I don’t understand. Please rephrase your question.” This is to test that the fallback action is being triggered properly.
@@ -81,9 +81,11 @@ Select “NeuralSeek search".
 
 ## Preview NeuralSeek Generative AI Response
 
-- **(a)** In the lower right, click “Preview” and type a random question, in this example it is, “Why is the sky blue?”
+- **(a)** In the lower right, click “Preview” and type a random question, in this example it is, “**Why is the sky blue?**”
 - **(b)** Press “Enter”.
 
 View the NeuralSeek generative AI response.
 
 ![image1.6.11](images/image1.6.11.png)
+
+> A NeuralSeek call action that allows for generative AI respones to all queries is now setup, tested, and ready to use. 

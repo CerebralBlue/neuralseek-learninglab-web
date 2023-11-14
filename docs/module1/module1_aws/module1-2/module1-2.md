@@ -43,3 +43,5 @@ Please enter the following:
 Click "Save" button at the bottom.
 
 ![image1.4.6](images/image1.4.6.png)
+
+> NeuralSeek is now set up with a KnowledgeBase, in this case: **Elastic AppSearch**, and ready to seek. 

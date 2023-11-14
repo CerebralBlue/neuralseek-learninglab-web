@@ -65,3 +65,5 @@ This section will automatically populate. Review the steps below to ensure accur
 NeuralSeek is ready to seek.
 
 ![image1.1.7](images/image1.1.7.png)
+
+> NeuralSeek is now set up with a KnowledgeBase, in this case: **IBM Watson Discovery**, and ready to use. 

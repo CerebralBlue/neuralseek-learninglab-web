@@ -40,7 +40,7 @@ Navigate to the "Configure" tab in NeuralSeek.
 
 ## Inaccurate Answer Example
  
-- **(a)** Select an intent by clicking the dropdown caret symbol. 
+- **(a)** Select an intent by clicking the dropdown caret icon. 
 - **(b)** Read the answer generated for that specific intent. It is possible for NeuralSeek to generate an inaccurate answer because the content in KnowledgeBase is outdated.
 
 ![image2.2.1](images/image2.2.1_updated.png)
