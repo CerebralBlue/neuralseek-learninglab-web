@@ -1,5 +1,5 @@
 ---
-title: Module 1.2 - Setup Virtual Agent
+title: 1.2 - Setup Virtual Agent
 permalink: /module1/module1_ibm/module1-2/
 parent: module1_ibm
 order: 2

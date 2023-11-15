@@ -1,5 +1,5 @@
 ---
-title: Module 1.4 - Authenticate Virtual Agent
+title: 1.4 - Authenticate Virtual Agent
 permalink: /module1/module1_ibm/module1-4/
 parent: module1_ibm
 order: 4
