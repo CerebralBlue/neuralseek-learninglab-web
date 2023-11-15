@@ -36,7 +36,7 @@ Complete required form.
 
 - **(a)** Select KnowledgeBase. In this example “Watson Discovery”.
 - **(b)** Select language. In this example "English".
-- **(c)** Enter the Service URL, API Key, and Project ID. In this example, from the learning lab chosen by Watson Discovery.
+- **(c)** Enter the Service URL, API Key, and Project ID. In this example, use the credentials provided by your instructor. 
 - **(d)** Click “Next”. If this is your first time setting up NeuralSeek you will be prompted to complete the Curation Tour at this time.
 
 ![image1.1.4](images/image1.1.4.png)
