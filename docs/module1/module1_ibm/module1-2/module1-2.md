@@ -32,8 +32,7 @@ Search and select “Watson Assistant”.
 
 ## Launch watsonx Assistant
 
-If desired, complete the “Getting Started Tutorial”. 
-- Click “Launch Watson Assistant”.
+Click “Launch Watson Assistant”.
 
 ![image1.2.4](images/image1.2.4.png)
 
