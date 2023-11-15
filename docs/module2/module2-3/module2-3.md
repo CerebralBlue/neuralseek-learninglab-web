@@ -1,5 +1,5 @@
 ---
-title: Module 2.3 - Analytics
+title: 2.3 - Analytics
 permalink: /module2/module2-3/
 parent: module2
 order: 3
