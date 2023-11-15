@@ -70,18 +70,5 @@ Review extension. Click “Finish.”
 
 ![image1.3.9](images/image1.3.9.png)
 
-## Return to Integrations
 
-- **(a)** On the left menu, select “Integrations.”
-- **(b)** Search for the custom NeuralSeek extension, in this example it is, “**IBM Learning Lab: NeuralSeek and Watson.**”
-- **(c)** Click “+add.”
-
-![image1.3.10](images/image1.3.10.png)
-
-## Add Extension
-
-Review custom extensions. Click “Add.”
-
-![image1.3.11](images/image1.3.11.png)
-
-> NeuralSeek is now added as a custom extension and integrated with the virtual agent **IBM watsonx Assistant**. 
+> The custom NeuralSeek extension is now integrated with IBM watsonx Assistant. Next, we need to authenticate the extension.
