@@ -1,5 +1,5 @@
 ---
-title: Module 1.3 - Integrate Virtual Agent
+title: 1.3 - Integrate Virtual Agent
 permalink: /module1/module1_aws/module1-3/
 parent: module1_aws
 order: 3

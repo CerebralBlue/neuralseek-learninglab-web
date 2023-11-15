@@ -1,5 +1,5 @@
 ---
-title: Module 2.5 - Explore
+title: 2.5 - Explore
 permalink: /module2/module2-5/
 parent: module2
 order: 5
@@ -9,59 +9,101 @@ order: 5
 
 NeuralSeek's "Explore" platform offers an open-ended playground for retrieval augmented generation. "Explore" streamlines the interaction with Language Models, making it accessible and user-friendly while providing powerful tools for content retrieval and enhancement.
 
-## View Example
+## Access Explore
 
-Explore outputs Generative AI-backed natural language responses based on prioritized data sources, either “Get Data,” “Modify Data,” or “Generate Data.” 
+Explore outputs Generative AI-backed natural language responses based on prioritized data sources.
 
 - On the top menu click “Explore.” 
 
 ![image2.5.1](images/image2.5.1.png)
 
-- **(a)** On the left menu, select “Write a prospecting email.” View the prompt. 
-- **(b)** Click “Evaluate.” 
+## Example 1 - Create a Marketing Email
 
-![image2.5.2](images/image2.5.2.png)
+Explore's **Visual Editor** will generate, allowing for seamless point-and-click interactions. For the purpose of this lab, prompt Explore to extract data from a website to create a marketing email. 
 
-## View output
+- **(a)** Click "Example Templates". A list of example templates to use will show.
+- **(b)** Click the "Prospecting Email" template to create a marketing email. 
 
-Scroll down and read the generated response. Confirm the output is unique, click “Evaluate” again.
+![explore1](images/explore1.png)
 
-## Details
+![explore2](images/explore2.png)
 
-- **(a)** Click Details. View information. 
+### Complete the Prompt
+
+- **(a)** Notice, this where you can type a question or a request into the "Text" prompt. In this example it defaults to, “**Write a marketing email based on this list:**” 
+- **(b)** Click “Website Text.” Copy the URL of a text-based website page and paste the URL into the prompt. In this example, use "[**https://documentation.neuralseek.com/main_features/explore_platform**](https://documentation.neuralseek.com/main_features/explore_platform)". 
+- **(c)** At this step, Explore sends all previous content to the Large Language Model for generation.
+- **(d)** Click “Evaluate" and review output.
+> Optionally, click “Summarize" to change the word count allowance. 
+
+![explore3](images/explore3.png)
+
+### View Output
+
+Scroll down and read the generated response. Confirm the output is unique.
+
+- **(a)** Click "Evaluate" to re-generate a unique response. 
+
+![explore4](images/explore4.png)
+
+### Details
+
+- **(a)** Click Details. View the Semanic Score Details information. 
 - **(b)** Click “Close.”
+- **(c)** Click "Clear" to remove the output and contents in the Visual Editior. 
 
-![image2.5.3](images/image2.5.3.png)
+![explore7](images/explore7.png)
 
-![image2.5.4](images/image2.5.4.png)
+![explore5](images/explore5.png)
 
-## Use Data from a KnowledgeBase
+![explore6](images/explore6.png)
+
+## Example 2 - Write a Memo Using a KnowledgeBase Query
 
 Users can query KnowledgeBases and retrieve information based on specific search terms or queries.
 
-- **(a)** In the text box, type the question or request. 
-- **(b)** From the left menu, under “Get Data,” select “KB Documentation.”
+- **(a)** In the Visual Editor, click "Load Template".
+- **(b)** From the template options, click "Write a Memo". 
 
-![image2.5.5](images/image2.5.5.png)
+![explore8](images/explore8.png)
 
-## View output
+![explore9](images/explore9.png)
 
-- **(a)** Replace “your KB query” with a brief description of the question or request. 
-- **(b)** Click “Evaluate.” Review output.
+### Complete the Prompt
 
-![image2.5.6](images/image2.5.6.png)
+**(a)** Notice, this where you can type a question or a request into the "Text" prompt. In this example it defaults to, “**Write a memo to staff dicussing the following capabilities:**” 
+- **(b)** Click “KB Search” to add a KnowledgeBase card. In this example, type "**Explore**" for the query to your KnowledgeBase.  
+- **(c)** At this step, Explore sends all previous content to the Large Language Model for generation.
+- **(d)** Click “Evaluate" and review output.
 
-![image2.5.7](images/image2.5.7.png)
+![explore10](images/explore10.png)
 
-## Shorten output
+### View Output
 
-- **(a)** From the left menu under “Modify Data,” click “Summarize.” 
-- **(b)** Replace the value with “100.” 
+Scroll down and read the generated response. Confirm the output is unique.
+
+> Optionally, Click “Evaluate" to re-generate a unique response.
+
+![explore11](images/explore11.png)
+
+## Example 3 - Chain LLM Calls to Shorten Memo
+
+- **(a)** Click "Send to LLM" and drag the newly created card to the right of "Send all previous content to LLM".
+- **(b)** Prompt the Language Model with a specified request to modify the original memo output. Click on the newly created card and input this example prompt: "**Condense this memo to 2 paragraphs**". 
 - **(c)** Click “Evaluate.” Review output.
 
-![image2.5.8](images/image2.5.8.png)
+![explore12](images/explore12.png)
 
-## Use Data from a Document
+
+### View Output
+
+Scroll down and read the generated response. Confirm the output is unique. Notice how to output memo is now shortened to two paragraphs in length. 
+
+> Optionally, Click “Evaluate" to re-generate a unique response. Or, continue to chain LLM calls with various specified prompts. 
+
+![explore13](images/explore13.png)
+
+<!---## Use Data from a Document
 
 Users can access content from local files such as PDFs, Docs, CSVs, XLS, and TXT.
 
@@ -83,22 +125,9 @@ Users can access content from local files such as PDFs, Docs, CSVs, XLS, and TXT
 
 Scroll down to read the generated promotional email. Notice how the output used specific information from the uploaded document throughout the response.
 
-![image2.5.11](images/image2.5.11.png)
+![image2.5.11](images/image2.5.11.png)--->
 
-## Use Data from a Webpage
-
-Users can extract data from websites, fetching content as needed.
-
-- **(a)** Type a question or a request, in this example it is, “Write a cited article on NeuralSeek's features using this website.” 
-- **(b)** On the left menu under "Get Data", select “Website Text.” Copy the URL of a text-based website page and paste the URL into the “https://yourwebpage.com” prompt.
-- **(c)** On the left menu under "Modify Data", click “Summarize.” 
-- **(d)** Click "Send to LLM" to call the Language Model for answer generation. 
-- **(e)** Click “Evaluate" and review output.
-
-![image2.5.12](images/image2.5.12_updated.png)
-
-![image2.5.13](images/image2.5.13.png)
 
 ## Continue to Explore 
 
-Adjust output with data selection, modifying data, and generate data. Take time to understand the “Weight Tuning.”
+Continue to explore the wide variety of output generation with various data selection options, modifications to the data, and unique generative data prompts on NeuralSeek's Explore platform.  

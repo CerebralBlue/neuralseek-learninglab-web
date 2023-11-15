@@ -1,5 +1,5 @@
 ---
-title: Module 1.6 - Generative AI Responses
+title: 1.6 - Generative AI Responses
 permalink: /module1/module1_ibm/module1-6/
 parent: module1_ibm
 order: 6

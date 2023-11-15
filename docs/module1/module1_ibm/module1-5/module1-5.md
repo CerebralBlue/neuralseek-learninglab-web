@@ -1,5 +1,5 @@
 ---
-title: Module 1.5 - Starter Kit Actions
+title: 1.5 - Starter Kit Actions
 permalink: /module1/module1_ibm/module1-5/
 parent: module1_ibm
 order: 5
