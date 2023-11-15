@@ -50,7 +50,7 @@ Scroll down and read the generated response. Confirm the output is unique.
 
 - **(a)** Click Details. View the Semanic Score Details information. 
 - **(b)** Click “Close.”
-- **(c)** Click "Clear" to remove the output and contents in the Visual Editior. 
+- **(c)** Click "Clear" to remove the output and contents in the Visual Editor. 
 
 ![explore7](images/explore7.png)
 
