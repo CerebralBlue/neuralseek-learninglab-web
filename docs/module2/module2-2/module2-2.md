@@ -67,6 +67,6 @@ When you click one of the answers, the system automatically notifies you of acti
 - Click “Download to CSV” to collaborate with experts.
 - Click “Edit Category” to place into a category.
 - Click "Export" to download a .json file for uploading to your virtual assistant.
-- Click "Import" to upload a .json file from your virtual assistant into NeuralSeek.  
+- Click "Import" to upload a .json basefile from your virtual assistant. Neuralseek will merge exported content with this basefile.
 
 ![image2.2.3](images/image2.2.3_updated.png)
