@@ -70,5 +70,4 @@ Review extension. Click “Finish.”
 
 ![image1.3.9](images/image1.3.9.png)
 
-
-> The custom NeuralSeek extension is now integrated with IBM watsonx Assistant. Next, we need to authenticate the extension.
+> NeuralSeek is now added as a custom extension and integrated with the virtual agent **IBM watsonx Assistant**.  Next, we need to authenticate the extension.
