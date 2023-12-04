@@ -32,7 +32,7 @@ Click the “Corporate KnowledgeBase Details” drop down menu.
 
 User is responsible for providing selected KnowledgeBase detail information. Since it takes time to set these up for yourself, we are going to be using the one that is already prepared for the learning lab, with read-only access. The actual values below will be provided during the course of this lab by the lab instructor.
 
-> ❕ To understand how to create and locate the AWS access keys, refer to this section:
+> ❕ **To understand how to create and locate the AWS access keys, refer to this section: [AWS Access Keys]({{site.baseurl}}{% link module1/module1_aws/kendra_keys/kendra_keys.md %}).**
 
 Please enter the following:
 

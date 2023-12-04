@@ -6,48 +6,64 @@ order: 4
 ---
 # AWS Access Keys Information
 
-### Access Amazon Kendra
+This section outlines how to generate the necessary access key information needed for establishing a successful connection between the AWS KnowledgeBase "Kendra Index" and NeuralSeek.
 
-Navigate to "Amazon Kendra" on AWS Console account.
+## Access Amazon Kendra
+
+Navigate to "Amazon Kendra" on your AWS Console account.
 
 - **(a)** Click "Create an Index."
 
 ![image1.1](images/image1.1.png)
 
-### Specify Index Details 
+## Specify Index Details 
 
-- **(a)** Add an "Index name."
-- **(b)** Click "Create a New Role" under IAM Role drop down menu.
-- **(c)** Add a "Role name." 
-- **(d)** Click "Next." 
+Create a new index and IAM Role.
 
-![image1.2](images/image1.2.png)
+- **(a)** Add an Index name. In this example, "**learning-lab**".
+- **(b)** Click "Create a New Role" under the IAM Role drop down menu.
+- **(c)** Add a Role name. In this example, "**learning-lab**".  
 
-![image1.3](images/image1.3.png)
+Click "Next" to save new index and role. 
 
-### Configure User Access Control
+![image1.2](images/1.2.png)
 
-Select desired options for "Access Control Settings" and "User-group expansion." Then click "Next."
+![image1.3](images/1.3.png)
 
-![image1.4](images/image1.4.png)
+## Configure User Access Control
 
-### Add Additional Capacity
+Set up a way to control who can see which documents by automatically filtering them according to each user ID and user groups.
 
-Select desired option for "Provisioning Editions." Then. click "Next."
+- **(a)** Select option for "Access Control Settings". In this example, select "**No**".
+- **(b)** Select option for "User-group expansion". In this example, select "**None**". 
+
+Click "Next" to save user access control preferences. 
+
+![image1.4](images/1.4.png)
+
+## Add Additional Capacity
+
+Select desired option for "Provisioning Editions." In this example, select "**Developer edition**".
+
+Click "Next" to save provisioning edition preference.
 
 ![image1.5](images/image1.5.png)
 
-### Review and Create
+## Review and Create
 
-Review the details on the page, then click "Create". Propagating IAM Role and creating the Index can take up to 30 minutes. 
+Review the details on the page to ensure correctness.
+
+Click "Create" to generate a new index and IAM role with specified access settings and provisioning edition. 
+
+> ❕ Propagating IAM Role and creating the Index can take up to 30 minutes. 
 
 ![image1.6](images/image1.6.png)
 
-### Kendra Index ID
+## Kendra Index ID
 
-Under "Index Setting" section, copy the unqiue "Index ID" to use as the "Kendra Index ID" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
+Under the "Index Setting" section, copy the unqiue "**Index ID**" to use as the "Kendra Index ID" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
-### Create User
+## Create User
 
 Navigate to IAM in the AWS Console.
 
@@ -58,37 +74,43 @@ Navigate to IAM in the AWS Console.
 
 ![image1.8](images/image1.8.png)
 
-- **(c)** Add a user name, then click "Next."
+- **(c)** Add a user name. For this example, "**learninglab-testgroup**". 
+
+Click "Next". 
 
 ![image1.9](images/image1.9.png)
 
-- **(d)** Click "Create Group."
-- **(e)** Add a user group name, then select a policy name based on the best use case. For the purpose of this lab, select the "AmazonKendraReadOnlyAccess" policy name.
-- **(f)** Click "Create user group", then click "Next."
+Click "Create Group."
 
-![image1.10](images/image1.10.png)
+- **(e)** Add a user group name. For this example, "**learninglab-testgroup**".
+- **(f)** Select a policy name based on the best use case. For the purpose of this lab, select the "**AmazonKendraReadOnlyAccess**" policy name.
+- **(g)** Click "Create user group", then click "Next."
 
-- **(g)** Review the details, then click "Create User" to create the user. 
+![image1.10](images/1.10.png)
 
-### Create Access Key
+Review the details, then click "Create User" to create the user. 
+
+## Create Access Key
 
 Navigate to the "Security Credentials" tab under the selected user after verfiying that the user is added to the correct group. 
+
 - **(a)** In the "Access keys" section, click "Create access key."
 
 ![image1.11](images/image1.11.png)
 
-- **(b)** Select the appropriate "Use case." For the purpose of this lab, select "Application running outside AWS".
+- **(b)** Select the appropriate "Use case." For this example, select "**Application running outside AWS**".
 - **(c)** Click "Next". 
-- **(d)** Click "Create access key." 
 
 ![image1.12](images/image1.12.png)
 
-### AWS Role Access Keys
+Click "Create access key" to successfully create an access key.   
+
+## AWS Role Access Keys
 
 > ❕ *Disclaimer: the secret access key will be accessible only once. It is important to copy the secret access key prior to proceeding.*
 
-On the "Retrieve access keys" page, copy the unqiue "Access key" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
+On the "Retrieve access keys" page, copy the unqiue "**Access key**" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
-On the same page, copy the unique "Secret access key" to use as the "AWS Role Secret Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
+On the same page, copy the unique "**Secret access key**" to use as the "AWS Role Secret Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
-- **(a)** Click "Done."
+Click "Done" to successfully add the essential AWS Access Key information into NeuralSeek when configuring to the AWS Kendra Index KnowledgeBase. 
