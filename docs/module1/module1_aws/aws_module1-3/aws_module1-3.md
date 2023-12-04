@@ -78,7 +78,7 @@ Navigate to "Configuration" tab in AWS Lambda Function Console.
 
 ![image1.5.10](images/image1.5.10.png)
 
-For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation [here.]({{site.baseurl}}{% link module1/module1_aws/aws_module1-3/aws_module1-3.md %}) 
+<!--- For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation [here.]({{site.baseurl}}{% link module1/module1_aws/aws_module1-3/aws_module1-3.md %}) ---> 
 
 ## Assign Alias 
 

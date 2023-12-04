@@ -1,5 +1,5 @@
 ---
-title: 1.5 - About, Tune, Q&A
+title: Additional Information - About, Tune, Q&A
 permalink: /module1/module1_aws/aws_module1-5/
 parent: module1_aws
 order: 5

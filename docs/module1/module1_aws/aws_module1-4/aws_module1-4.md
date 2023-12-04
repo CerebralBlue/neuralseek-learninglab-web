@@ -1,11 +1,11 @@
 ---
-title: 1.4 - Connect a Large Language Model (LLM)
+title: Additional Information - LLM
 permalink: /module1/module1_aws/aws_module1-4/
 parent: module1_aws
 order: 4
 ---
 
-# Module 1.4 - Connect a Large Language Model (LLM) with NeuralSeek
+# Connect a Large Language Model (LLM) with NeuralSeek
 
 Enhance your NeuralSeek experience by following these instructions to seamlessly add at least one LLM (Large Language Model) to optimize its functionalities. If you add more than one, NeuralSeek will balance them for functions that can use multiple LLMs. If an LLM can't handle certain features, those features won't be available. If you don't add an LLM for a function, that part of NeuralSeek won't work.
 

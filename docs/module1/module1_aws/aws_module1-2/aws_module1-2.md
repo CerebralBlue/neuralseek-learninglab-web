@@ -22,11 +22,11 @@ Click the “Corporate KnowledgeBase Details” drop down menu.
 ## Select KnowledgeBase
 
 - **(a)** Select desired KnowledgeBase from the drop down menu. For the purpose of this lab, we recommend the AWS KnowledgeBase "**Kendra Index**." 
-- **(b)** Select desired language. For the purpose of this lab, click "English." 
+- **(b)** Select desired language. For the purpose of this lab, click "**English**." 
   
-![image1.4.3](images/image1.4.3_updated.png)
+![image1.4.3](images/image1.4.3_updated2.png)
 
-![image1.4.4](images/image1.4.4_updated.png)
+![image1.4.4](images/image1.4.4_updated2.png)
 
 ## Add KnowledgeBase Information
 
@@ -41,7 +41,7 @@ Please enter the following:
 - **(c)** Add "AWS Region".
 - **(d)** Add "AWS Role Secret Access Key".
 
-![image1.4.5](images/image1.4.5.png)
+![image1.4.5](images/image1.4.5_updated.png)
  
 Click "Save" button at the bottom.
 
