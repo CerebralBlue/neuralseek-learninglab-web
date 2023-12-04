@@ -1,6 +1,6 @@
 ---
 title: AWS Access Keys
-permalink: /module1_aws/aws_module1-2/kendra_keys
+permalink: /module1/module1_aws/aws_module1-2/kendra_keys
 parent: aws_module1-2
 order: 1
 ---
@@ -15,7 +15,7 @@ Navigate to "Amazon Kendra" on your AWS Console account.
 
 - **(a)** Click "Create an Index."
 
-![image1.1](images_keys/image1.1.png)
+![keys_1](kendra_keys_images/keys_1.png)
 
 ## Specify Index Details 
 
@@ -27,9 +27,9 @@ Create a new index and IAM Role.
 
 Click "Next" to save new index and role. 
 
-![image1.2](images_keys/1.2.png)
+![keys_2](kendra_keys_images/keys_1.png)
 
-![image1.3](images_keys/1.3.png)
+![keys_3](kendra_keys_images/keys_3.png)
 
 ## Configure User Access Control
 
@@ -40,7 +40,7 @@ Set up a way to control who can see which documents by automatically filtering t
 
 Click "Next" to save user access control preferences. 
 
-![image1.4](images_keys/1.4.png)
+![keys_4](kendra_keys_images/keys_4.png)
 
 ## Add Additional Capacity
 
@@ -48,7 +48,7 @@ Select desired option for "Provisioning Editions." In this example, select "**De
 
 Click "Next" to save provisioning edition preference.
 
-![image1.5](images_keys/image1.5.png)
+![keys_5](kendra_keys_images/keys_5.png)
 
 ## Review and Create
 
@@ -58,7 +58,7 @@ Click "Create" to generate a new index and IAM role with specified access settin
 
 > ❕ Propagating IAM Role and creating the Index can take up to 30 minutes. 
 
-![image1.6](images_keys/image1.6.png)
+![keys_6](kendra_keys_images/keys_6.png)
 
 ## Kendra Index ID
 
@@ -68,18 +68,18 @@ Under the "Index Setting" section, copy the unqiue "**Index ID**" to use as the 
 
 Navigate to IAM in the AWS Console.
 
-![image1.7](images_keys/image1.7.PNG)
+![keys_7](kendra_keys_images/keys_7.PNG)
 
 - **(a)** Click "Users" on the left sidebar menu. 
 - **(b)** Click "Create a User". 
 
-![image1.8](images_keys/image1.8.png)
+![keys_8](kendra_keys_images/keys_8.png)
 
 - **(c)** Add a user name. For this example, "**learninglab-testgroup**". 
 
 Click "Next". 
 
-![image1.9](images_keys/image1.9.png)
+![keys_9](kendra_keys_images/keys_9.png)
 
 Click "Create Group."
 
@@ -87,7 +87,7 @@ Click "Create Group."
 - **(f)** Select a policy name based on the best use case. For the purpose of this lab, select the "**AmazonKendraReadOnlyAccess**" policy name.
 - **(g)** Click "Create user group", then click "Next."
 
-![image1.10](images_keys/1.10.png)
+![keys_10](kendra_keys_images/keys_10.png)
 
 Review the details, then click "Create User" to create the user. 
 
@@ -97,12 +97,12 @@ Navigate to the "Security Credentials" tab under the selected user after verfiyi
 
 - **(a)** In the "Access keys" section, click "Create access key."
 
-![image1.11](images_keys/image1.11.png)
+![keys_11](kendra_keys_images/keys_11.png)
 
 - **(b)** Select the appropriate "Use case." For this example, select "**Application running outside AWS**".
 - **(c)** Click "Next". 
 
-![image1.12](images_keys/image1.12.png)
+![keys_12](kendra_keys_images/keys_12.png)
 
 Click "Create access key" to successfully create an access key.   
 
