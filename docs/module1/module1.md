@@ -5,6 +5,7 @@ parent: /
 layout: chapter
 start_button: false
 order: 1
+visible: true
 ---
 
 # Module 1: Initial Setup of NeuralSeek - No Code Required

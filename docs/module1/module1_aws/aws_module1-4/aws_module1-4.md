@@ -1,8 +1,8 @@
 ---
 title: Additional Information - LLM
 permalink: /module1/module1_aws/aws_module1-4/
-parent: module1_aws
-order: 4
+parent: aws_module1-1
+order: 1
 ---
 
 # Connect a Large Language Model (LLM) with NeuralSeek
@@ -17,7 +17,7 @@ Navigate to the NeuralSeek user interface.
 
 In the "Home" tab, follow the steps to connect to your LLM.
 
-> ❕ You must add at least one LLM.
+> ⚠️ You must add at least one LLM.
 
 - **(a)** Click "Add an LLM"". 
 
@@ -52,4 +52,4 @@ For AWS users, it is recommended to connect to the **Amazon Bedrock** platform, 
 
 A Large Language Model is now connected to NeuralSeek. 
 
-> ❕ LLM's can vary in their capabilities and performances. Some LLM can take up to 30 seconds and longer to generate a full response. Use caution when using in conjunction with a virtual agent platform that imposes a strict timeout.
+> ⚠️ LLM's can vary in their capabilities and performances. Some LLM can take up to 30 seconds and longer to generate a full response. Use caution when using in conjunction with a virtual agent platform that imposes a strict timeout.

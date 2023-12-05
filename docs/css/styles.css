@@ -133,6 +133,10 @@ main img {
   text-decoration: none !important;
 }
 
+big li a {
+  font-size: 2em;
+}
+
 .current_page {
   color: var(--selected);
   font-weight: bolder;

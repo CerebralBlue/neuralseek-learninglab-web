@@ -1,11 +1,11 @@
 ---
-title: AWS Access Keys
+title: Setting up AWS Kendra Index and Access Keys
 permalink: /module1/module1_aws/aws_module1-2/kendra_keys
 parent: aws_module1-2
 order: 1
 ---
 
-# AWS Access Keys Information
+# Setting up AWS Kendra Index and Access Keys
 
 This section outlines how to generate the necessary access key information needed for establishing a successful connection between the AWS KnowledgeBase "Kendra Index" and NeuralSeek.
 
@@ -56,7 +56,7 @@ Review the details on the page to ensure correctness.
 
 Click "Create" to generate a new index and IAM role with specified access settings and provisioning edition. 
 
-> ❕ Propagating IAM Role and creating the Index can take up to 30 minutes. 
+> ⚠️ Propagating IAM Role and creating the Index can take up to 30 minutes. 
 
 ![keys_6](kendra_keys_images/keys_6.png)
 
@@ -108,7 +108,7 @@ Click "Create access key" to successfully create an access key.
 
 ## AWS Role Access Keys
 
-> ❕ *Disclaimer: the secret access key will be accessible only once. It is important to copy the secret access key prior to proceeding.*
+> ⚠️ *Disclaimer: the secret access key will be accessible only once. It is important to copy the secret access key prior to proceeding.*
 
 On the "Retrieve access keys" page, copy the unqiue "**Access key**" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 

@@ -55,11 +55,6 @@
       </div>
     </nav>
     <main class="col-md-9 ml-sm-auto col-lg-10 px-4">
-      <div class="content" style="padding-left:30px;padding-right:30px;">
-      {{ content }}
-      </div>
-      <div class="hr_menu" style="text-align:right">
-        <hr />
         {% for p in site.pages %}
           {% assign p_name = p.url | split: '/' | last %}
           {% if p_name == page.parent %}
@@ -67,7 +62,7 @@
             {% break %}
           {% endif %}
         {% endfor %}
-        {% assign sibling_pages = site.pages | where: "parent", page.parent | sort: "order" %}
+        {% assign sibling_pages = site.pages | where: "parent", page.parent | where: "visible", "true" | sort: "order" %}
         {% for sibling_page in sibling_pages %}
           {% if sibling_page.url == page.url %}
             {% unless forloop.first %}
@@ -81,6 +76,23 @@
             {% break %}
           {% endif %}
         {% endfor %}
+      <div class="hr_menu" style="text-align:right">
+        <ul>
+          {% if prev_page %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ prev_page.url }}">&lt;&lt; PREV: {{ prev_page.title }}</a></li>
+          {% endif %}
+          {% if next_page %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ next_page.url }}">NEXT: {{ next_page.title }} &gt;&gt;</a></li>
+          {% elsif parent_page %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ parent_page.url }}">🛑 FINISHED</a></li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="content" style="padding-left:30px;padding-right:30px;">
+      {{ content }}
+      </div>
+      <div class="hr_menu" style="text-align:right">
+        <hr />
         <ul>
           {% if prev_page %}
           <li><a href="{{ site.url }}{{ site.baseurl }}{{ prev_page.url }}">&lt;&lt; PREV: {{ prev_page.title }}</a></li>
