@@ -20,8 +20,8 @@
           <section class="content">
             {{ content }}
           </section>
-        <div class="hr_menu">
-          {% assign pages = site.pages | where: "parent", "/" | sort: "order" %}
+        <div class="hr_menu big">
+          {% assign pages = site.pages | where: "parent", "/" | where: "visible", "true" | sort: "order" %}
           <ul>
           {% for apage in pages %}
           <li><a href="{{ site.url }}{{ site.baseurl }}{{ apage.url }}">{{ apage.title }}</a></li>
