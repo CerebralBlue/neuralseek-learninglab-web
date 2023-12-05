@@ -14,6 +14,7 @@
 
 <ul class="nav flex-column" style="padding-inline-start: 0px;padding-left:1.2em">
 {% for page in include.pages %}
+  {% if page.visible != false %}
   <li class="nav-item" style="line-height:1.5em;">
     {% comment %} Generate the link for the page {% endcomment %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
@@ -36,5 +37,6 @@
       {% include render_pages.html pages=sub_modules current_url=include.current_url %}
     {% endif %}
   </li>
+  {% endif %}
 {% endfor %}
 </ul>

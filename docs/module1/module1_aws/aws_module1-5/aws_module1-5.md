@@ -1,15 +1,15 @@
 ---
-title: Additional Information - About, Tune, Q&A
+title: + Additional Tasks - About, Tune, Q&A
 permalink: /module1/module1_aws/aws_module1-5/
 parent: module1_aws
 order: 5
 ---
 
-# About, Tune, Q&A
+# Additional Tasks - About, Tune, Q&A
 
 ## About
 
-Let's set some items around your usecase. First, we need a short writeup about your company or organization, focusing on the usecase for this instance of NeuralSeek.
+First, we need a short writeup about your company or organization, focusing on the usecase for this instance of NeuralSeek.
 
 - **(a)** Add a brief company or organization description. 
 - **(b)** Select "Virtual Agent Type" from the drop down menu. In this example, select "**AWS Lex V2**".

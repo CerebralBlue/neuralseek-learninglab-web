@@ -4,6 +4,7 @@ permalink: /module2/
 parent: /
 layout: chapter
 order: 2
+visible: true
 ---
 
 # Module 2: Using NeuralSeek
