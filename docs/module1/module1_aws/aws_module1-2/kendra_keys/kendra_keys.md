@@ -68,7 +68,7 @@ Under the "Index Setting" section, copy the unqiue "**Index ID**" to use as the 
 
 Navigate to IAM in the AWS Console.
 
-![keys_7](kendra_keys_images/keys_7.PNG)
+![keys_7](kendra_keys_images/keys_7.png)
 
 - **(a)** Click "Users" on the left sidebar menu. 
 - **(b)** Click "Create a User". 
