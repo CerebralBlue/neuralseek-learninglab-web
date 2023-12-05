@@ -62,7 +62,7 @@
             {% break %}
           {% endif %}
         {% endfor %}
-        {% assign sibling_pages = site.pages | where: "parent", page.parent | where: "visible", "true" | sort: "order" %}
+        {% assign sibling_pages = site.pages | where: "parent", page.parent | sort: "order" %}
         {% for sibling_page in sibling_pages %}
           {% if sibling_page.url == page.url %}
             {% unless forloop.first %}
