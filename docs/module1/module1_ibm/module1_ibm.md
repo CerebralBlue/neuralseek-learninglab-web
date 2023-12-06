@@ -15,7 +15,7 @@ order: 1
 Before participating in this Learning Lab, it is essential that users come prepared with the necessary resources to fully engage in the practical exercises. We recommend having an active instance of an:
 
 - **Large Language Model (LLM)**, we recommend the watsonx platform LLM "**Llama-2-chat 70B**".
-- **KnowledgeBase**, we recommend the IBM KnowledgeBase "**watsonx Discovery**". Optionally you can also try using **watsonx Disocvery (AppSearch)**.
+- **KnowledgeBase**, we recommend the IBM KnowledgeBase "**watsonx Discovery**". Optionally you can also try using **watsonx Discovery (AppSearch)**.
 - **Virtual Agent**, we recommend the IBM Virtual Agent "**Watson Custom Extension**".
 - **Active NeuralSeek subscription**. 
 
