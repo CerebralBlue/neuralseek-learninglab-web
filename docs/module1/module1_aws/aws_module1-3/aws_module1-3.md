@@ -28,7 +28,7 @@ Download the Lambda Archive .zip file to your local storage.
 
 ## Create a Function
 
-Click the link to open the [Functions](https://console.aws.amazon.com/lambda/home#/functions) page on the AWS Lambda console to create a function from scratch.
+Click the link to open the <a href="https://console.aws.amazon.com/lambda/home#/functions" target="_blank">Functions</a> page on the AWS Lambda console to create a function from scratch.
 - **(a)** Select "Create Function".
 - **(b)** Add a “Function Name”. For this lab, we recommend “learning-lab”.
 - **(c)** Click “Create Function”.
@@ -80,18 +80,30 @@ Navigate to "Configuration" tab in AWS Lambda Function Console.
 
 <!--- For detailed information on creating a LexV2 Lambda bot from scratch, refer to the documentation [here.]({{site.baseurl}}{% link module1/module1_aws/aws_module1-3/aws_module1-3.md %}) ---> 
 
-## Assign Alias 
+## Create a Lex Bot
 
-Open the [Amazon Lex console.](https://console.aws.amazon.com/lexv2/home#bots) From the list of bots, choose the name of the bot that you want to use.
+1. Open the <a href="https://console.aws.amazon.com/lexv2/home#bots" target="_blank">Amazon Lex console</a>. click "Create bot" under the Bots section.
+2. In the creation method, select "Create a blank bot".
+3. Name the bot "TestBot".
+4. Select "Create a role with basic Amazon Lex permissions" in IAM Permissions.
+5. Select "No" in Children's Online Privacy Protection Act (COPPA).
+6. Click "Next".
+7. Click "Done".
+8. In the `Sample utterances` section, add an utterance. It can be anything (e.g. Hello).
+9. In the `Initial response` section, add any response that may be suitable. (e.g. Welcome to the test bot).
+8. Click "Save intent" to save a default intent without adding anything.
 
+## Selecting Alias
+
+Open the <a href="https://console.aws.amazon.com/lexv2/home#bots" target="_blank">Amazon Lex console</a>. Select the "TestBot" from the list of the Bots.
 - **(a)** On the left side bar menu, under “Deployment”, click “Aliases”.
-- **(b)** From the list of alias names, choose the alias name that you want to use. For this lab, we recommend “**TestBotAlias**”
+- **(b)** From the list of alias names, choose the alias name that you want to use. Select "**TestBotAlias**".
 
 ![images1.5.11](images/image1.5.11.png)
 
 ## Select Lanaguage
 
-Under the chosen Alias, "**TestBotAlias**" within the [Amazon Lex console](https://console.aws.amazon.com/lexv2/home#bots):
+Under the chosen Alias, "**TestBotAlias**" within the <a href="https://console.aws.amazon.com/lexv2/home#bots" target="_blank">Amazon Lex console</a>:
 
 - **(a)** From the list of supported languages, click the language that the Lambda function is used for. For this lab, we recommend “**English**”.
 
@@ -99,7 +111,7 @@ Under the chosen Alias, "**TestBotAlias**" within the [Amazon Lex console](https
 
 ## Optional Lambda Function Connection
 
-- **(a)** Under "Source", click the name of the alias of the Lambda function to use. For this lab, we recommend "**MyNeuralSeek**”. 
+- **(a)** Under "Source", click the name of the alias of the Lambda function to use. For this lab, we recommend "**learning-lab**”. 
 - **(b)** Under "Lambda function version or alias", the option "**$LATEST**" will populate. 
 - **(c)** Click “Save”.
 
@@ -107,9 +119,9 @@ Under the chosen Alias, "**TestBotAlias**" within the [Amazon Lex console](https
 
 ## Fallback Activities
 
-The default FallbackIntent allows for the Lambda function to be called when it is detected. The idea is that Lex would invoke NeuralSeek to answer whenever there is no matching intent found. To activate this, navigate to Amazon Lex in AWS Console.
+The default FallbackIntent allows for the Lambda function to be called when it is detected. The idea is that Lex would invoke NeuralSeek to answer whenever there is no matching intent found. To activate this, navigate to <a href="https://console.aws.amazon.com/lexv2/home#bots" target="_blank">Amazon Lex console</a>.
 
-- **(a)** Click “MyNeuralSeek.”
+- **(a)** Click “TestBot”
 - **(b)** Click “Intents” under “English (US)” on the left sidebar menu.
 - **(c)** Click on the “FallbackIntent” link.
 
@@ -131,6 +143,7 @@ Build the chatbot and test the FallbackIntent routine with a question.
 - **(a)** Click “Build.” This step may take a few moments.
 - **(b)** Click “Test.” The Amazon Lex chatbot will be generated. 
 - Prompt the chatbot with a question. For the purpose of this lab, we used “**What is NeuralSeek?**”
+- Notice the answer and the detailed information about the answer is returned to the chat bot.
 
 ![image1.5.15](images/image1.5.15.png)
 
