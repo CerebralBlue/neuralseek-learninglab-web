@@ -1,5 +1,5 @@
 ---
-title: 1.2 - Configure KnoweldgeBase
+title: 1.2 - Configure KnowledgeBase
 permalink: /module1/module1_aws/aws_module1-2/
 parent: module1_aws
 order: 2
