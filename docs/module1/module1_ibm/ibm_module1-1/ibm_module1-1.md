@@ -14,7 +14,7 @@ Log in to [IBM Cloud](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-_-tri
 - **(b)** To agree to the third-party terms, in the bottom right, open and read the terms then check, “I have read and agree to the following third-party terms”. 
 - **(c)** To provision, click “Create”.
 
-![image1.1.1](images/image1.1.1_updated.png)
+![image1.1.1](images/image001.png)
 
 ## Launch NeuralSeek
 
