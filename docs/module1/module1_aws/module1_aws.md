@@ -14,9 +14,9 @@ The goal of **Module 1 - AWS** of the Learning Lab is to provide users with the 
 
 Before participating in this Learning Lab, it is essential that users come prepared with the necessary resources to fully engage in the practical exercises. If following the lab independently, we recommend having an active instance of an:
 
-- **Active NeuralSeek subscription**. We recommend the Pay-per-Answer plan.
+- **Active NeuralSeek subscription**: we recommend the Pay-per-Answer plan.
     - If BYOLLM plan is selected, we recommend the Amazon Bedrock Large Language Model (LLM)"**Claude 2.**".
-- **KnowledgeBase**, we recommend the AWS KnowledgeBase "**Kendra Index.**". Optionally you can also try using **Elastic AppSearch**.
-- **Virtual Agent**, we recommend the AWS Virtual Agent "**LexV2 Lambda.**"
+- **KnowledgeBase**: we recommend the AWS KnowledgeBase "**Kendra Index.**".
+- **Virtual Agent**: we recommend the AWS Virtual Agent "**LexV2 Lambda.**"
 
 ⚠️ Please be aware that any purchases or subscriptions related to the aforementioned tools must be made independently by the users. Additionally, to access NeuralSeek functionalities within the lab, users are required to have an active subscription to NeuralSeek on the AWS Marketplace. It is the responsibility of each participant to understand and manage the associated costs related to the use of NeuralSeek and any other integrated services within their AWS environment. Kindly ensure that all necessary resources are set up and accessible prior to beginning the Learning Lab for a seamless and enriching experience.
