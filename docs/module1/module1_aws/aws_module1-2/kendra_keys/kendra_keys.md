@@ -25,7 +25,7 @@ Create a new index and IAM Role.
 - **(b)** Click "Create a New Role" under the IAM Role drop down menu.
 - **(c)** Add a Role name. In this example, "**learning-lab**".  
 
-Click "Next" to save new index and role. 
+Click "Next" to save a new index and role. 
 
 ![keys_2](kendra_keys_images/keys_1.png)
 
@@ -62,7 +62,7 @@ Click "Create" to generate a new index and IAM role with specified access settin
 
 ## Kendra Index ID
 
-Under the "Index Setting" section, copy the unqiue "**Index ID**" to use as the "Kendra Index ID" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
+Under the "Index Setting" section, copy the unique "**Index ID**" to use as the "Kendra Index ID" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
 ## Create User
 
@@ -93,7 +93,7 @@ Review the details, then click "Create User" to create the user.
 
 ## Create Access Key
 
-Navigate to the "Security Credentials" tab under the selected user after verfiying that the user is added to the correct group. 
+Navigate to the "Security Credentials" tab under the selected user after verifying that the user is added to the correct group. 
 
 - **(a)** In the "Access keys" section, click "Create access key."
 
@@ -110,8 +110,8 @@ Click "Create access key" to successfully create an access key.
 
 > ⚠️ *Disclaimer: the secret access key will be accessible only once. It is important to copy the secret access key prior to proceeding.*
 
-On the "Retrieve access keys" page, copy the unqiue "**Access key**" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
+On the "Retrieve access keys" page, copy the unique "**Access key**" to use as the "AWS Role Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
 On the same page, copy the unique "**Secret access key**" to use as the "AWS Role Secret Access Key" in the Corporate Knowledge Base Details section of NeuralSeek's Configure tab. 
 
-Click "Done" to successfully add the essential AWS Access Key information into NeuralSeek when configuring to the AWS Kendra Index KnowledgeBase. 
+Click "Done" to successfully add the essential AWS Access Key information into NeuralSeek when configuring the AWS Kendra Index KnowledgeBase. 
