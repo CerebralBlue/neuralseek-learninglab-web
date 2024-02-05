@@ -44,7 +44,7 @@ For IBM users, it is recommended to connect to the **watsonx** platform, and the
 - Select desired LLM functions. NeuralSeek will default to select all available functions. For the purpose of this lab, select the following: **PII Detection, Conversation Generation, Entity Extraction, Categorization, Example Generation, Intent Creation, Translate, Fallback Sentiment,** and **Explore**. 
 
 
-![image3](images/image3_ibm.PNG)
+![image3](images/image3_ibm.png)
 
 ## Test the LLM
 

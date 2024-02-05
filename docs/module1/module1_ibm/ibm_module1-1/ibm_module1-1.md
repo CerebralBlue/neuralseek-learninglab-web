@@ -52,29 +52,37 @@ Categorize your intents for easier reporting and management.
 - **(a)** Click the light bulb icon to add a new row. 
 - **(b)** Enter in a unique category name, a corresponding URL, and a detailed description of the category with intents that do not match any other category.
 
-![image]()
+![image](images/ibm_002.png)
 
 ### Virtual Agent Framework
-- **(a)** Select "Virtual Agent Type" from the drop down menu. In this example, select "**AWS Lex V2**".
+- **(a)** Select "Virtual Agent Type" from the drop down menu. In this example, select "**Watson Assistant Actions**".
 
 - **(b)** Select preferred choice of enabling or disabling embedding links into returned responses. In this example, select "**Disable**". 
 
-![image]()
+![image](images/ibm_001.png)
 
 Click "Next" to save reported categories and selected Virtual Agent. 
 
 ## Tune - Tune for your Data
 
-- **(a)** Continue to train NeuralSeek AI on the Watson Discovery data. In this example “Imported phrases are surrounded by many lines of text that explain them” is selected.
-- **(b)** Align data currency and relevance. In this example, select “I have lots of old documents or blog posts, some with conflicting information. I need NeuralSeek to help with data prioritization.”.
-- **(c)** Click “Next”.
+Let's tune NeuralSeek for your data.
 
-![image1.1.6](images/image1.1.6.png)
+- **(a)** Select preferred option for "Which of these looks more like your data?". For this example, select "**Important phrases are surrounded by many lines of text that explain them.**". 
+    - The option "*Important phrases are surrounded by many lines of text that explain them*", describes data with more elaborate explanations with more extensive passages of text for a better understanding.  
+    - The option "*Important phrases are surrounded by only a line or two of relevant information*", describes data with concise coverage of key phrases with just a line or two of necessary context. 
+- **(b)** Select preferred option that best describes your data requirements. For this example, select "**I want give lots of information to the LLM, and give it leeway to decide the answer.**"
+- **(c)** Select preferred option that best describes your data currency. For this example, select "**All of my documents are current and relevant.**". 
+    - The option "*All of my documents are current and relevant*", describes data that is up-to-date.
+    - The option "*I have lots of old documents or blog posts, some with conflicting information. I need NeuralSeek to help with date prioritization*", describes data that may have there are conflicting or irrelevant details across different sources or documents.
+
+Click "Next" to save reported tuning configurations. 
+
+![image](images/aws_007.png)
 
 ## Ready
 
 NeuralSeek is ready to seek.
 
-![image1.1.7](images/image1.1.7.png)
+![image1.1.7](images/aws_008.png)
 
 > NeuralSeek is now set up and ready to use. 
