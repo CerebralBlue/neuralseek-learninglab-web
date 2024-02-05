@@ -74,7 +74,7 @@ Categorize your intents for easier reporting and management.
 
 Click "Next" to save reported categories and selected Virtual Agent. 
 
-## Tune
+## Tune - Tune for your Data
 Let's tune NeuralSeek for your data.
 
 - **(a)** Select preferred option for "Which of these looks more like your data?". For this example, select "**Important phrases are surrounded by many lines of text that explain them.**". 
@@ -86,6 +86,10 @@ Let's tune NeuralSeek for your data.
 
 ![image]()
 
-Click "Next" to save unique tuning options for your data.
+## Ready
 
-> NeuralSeek is now ready to answer!
+NeuralSeek is ready to seek.
+
+![image1.1.7](images/image1.1.7.png)
+
+> NeuralSeek is now set up and ready to use. 

@@ -1,11 +1,11 @@
 ---
-title: 1.1 - Launch NeuralSeek
+title: 1.1 - Setup NeuralSeek
 permalink: /module1/module1_ibm/ibm_module1-1/
 parent: module1_ibm
 order: 1
 ---
 
-# Module 1.1 - Launch NeuralSeek
+# Module 1.1 - Setup NeuralSeek
 
 ## Add NeuralSeek
 
@@ -24,7 +24,7 @@ Click “Launch NeuralSeek”.
 
 ![image1.1.2](images/image1.1.2.png)
 
-## Basic Information
+## Basics - Getting Started
 
 Complete required form. 
 - **(a)** Enter the company name or organization display name.
@@ -34,9 +34,7 @@ Complete required form.
 
   ![image1.1.3](images/image1.1.3.png)
 
-## Data Information
-
-> For instructions on how to connect to the IBM watsonx platform KnowledgeBase type "**watsonx Discovery (AppSearch)**", refer to this section: [Configure wastonx Discovery (AppSearch) KnowledgeBase]({{site.baseurl}}{% link module1/module1_ibm/ibm_module1-1/wd_appsearch/wd_appsearch.md %}). 
+## Data - Connect to your KnowledgeBase
 
 - **(a)** Select KnowledgeBase. In this example “watsonx Discovery”.
 - **(b)** Select language. In this example "English".
@@ -45,18 +43,27 @@ Complete required form.
 
 ![image1.1.4](images/image1.1.4_updated.png)
 
-## About Information
+## Organize - Outputs and Categories
+### Categorization
+Categorize your intents for easier reporting and management. 
 
-This section will automatically populate. Review the steps below to ensure accuracy. 
+> If following the live lab, skip this step! 
 
-- **(a)** Optionally edit the NeuralSeek generated company or organization description.
-- **(b)** Select which virtual agent framework, in this example “watsonx Assistant Actions”.
-- **(c)** Enable or disable embedded links into return responses.
-- **(d)** Click “Next”.
+- **(a)** Click the light bulb icon to add a new row. 
+- **(b)** Enter in a unique category name, a corresponding URL, and a detailed description of the category with intents that do not match any other category.
 
-![image1.1.5](images/image1.1.5.png)
+![image]()
 
-## Tune Information
+### Virtual Agent Framework
+- **(a)** Select "Virtual Agent Type" from the drop down menu. In this example, select "**AWS Lex V2**".
+
+- **(b)** Select preferred choice of enabling or disabling embedding links into returned responses. In this example, select "**Disable**". 
+
+![image]()
+
+Click "Next" to save reported categories and selected Virtual Agent. 
+
+## Tune - Tune for your Data
 
 - **(a)** Continue to train NeuralSeek AI on the Watson Discovery data. In this example “Imported phrases are surrounded by many lines of text that explain them” is selected.
 - **(b)** Align data currency and relevance. In this example, select “I have lots of old documents or blog posts, some with conflicting information. I need NeuralSeek to help with data prioritization.”.
@@ -70,4 +77,4 @@ NeuralSeek is ready to seek.
 
 ![image1.1.7](images/image1.1.7.png)
 
-> NeuralSeek is now set up with a KnowledgeBase, in this case: **IBM watsonx Discovery**, and ready to use. 
+> NeuralSeek is now set up and ready to use. 
