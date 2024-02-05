@@ -15,7 +15,7 @@ Navigate to the “Integrate” tab in NeuralSeek.
 
 ## Select Virtual Agent
 
-Select choice of virtual agent on left side menu.
+Select the preferred choice of virtual agent on the left side menu.
 For this lab, we recommend "**LexV2 Lambda**".
 
 ![image1.5.2](images/image1.5.2.png)
@@ -62,13 +62,13 @@ const apikey = “enter api key here” ;
 ```
 {% endraw %}
 
-- The "Deploy" button will enable. Click "Deploy" to succesfully update and deploy the function.
+- The "Deploy" button will enable. Click "Deploy" to successfully update and deploy the function.
 
 ![image1.5.8](images/image1.5.8.png)
 
 ## Update Timeout Setting
 
-Navigate to "Configuration" tab in AWS Lambda Function Console.
+Navigate to the "Configuration" tab in AWS Lambda Function Console.
 
 - **(a)** In the "General Configuration" pane, click "Edit".
 - **(b)** Update under “Timeout”: set min to be “1” and sec to be “0”. This will ensure the lambda function will not time out for 1 minute.
@@ -101,7 +101,7 @@ Open the <a href="https://console.aws.amazon.com/lexv2/home#bots" target="_blank
 
 ![images1.5.11](images/image1.5.11.png)
 
-## Select Lanaguage
+## Select Language
 
 Under the chosen Alias, "**TestBotAlias**" within the <a href="https://console.aws.amazon.com/lexv2/home#bots" target="_blank">Amazon Lex console</a>:
 
@@ -127,7 +127,7 @@ The default FallbackIntent allows for the Lambda function to be called when it i
 
 ![image1.5.12](images/image1.5.12_updated.png)
 
-Under the "Fullfillment" section, click the "Activate" icon to turn on. 
+Under the "Fulfillment" section, click the "Activate" icon to turn on. 
 
 - **(a)** Click "Advanced Options"
 - **(b)** Select the “Use a Lambda Function for Fulfillment” option. 
@@ -149,4 +149,4 @@ Build the chatbot and test the FallbackIntent routine with a question.
 
 ![image1.5.16](images/image1.5.16.png)
 
-> The **AWS LexV2 Lambda** virtual agent is now setup, integrated with NeuralSeek, tested and ready for use. 
+> The **AWS LexV2 Lambda** Virtual Agent is now set up, integrated with NeuralSeek, tested and ready for use. 

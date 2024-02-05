@@ -14,9 +14,9 @@ order: 1
 
 Before participating in this Learning Lab, it is essential that users come prepared with the necessary resources to fully engage in the practical exercises. We recommend having an active instance of an:
 
-- **Large Language Model (LLM)**, we recommend the watsonx platform LLM "**Llama-2-chat 70B**".
-- **KnowledgeBase**, we recommend the IBM KnowledgeBase "**watsonx Discovery**". Optionally you can also try using **watsonx Discovery (AppSearch)**.
+- **Active NeuralSeek subscription**. We recommend the Pay-per-Answer plan.
+    - If BYOLLM plan is selected, we recommend the watsonx platform Large Language Model (LLM) "**Llama-2-chat 70B**".
+- **KnowledgeBase**, we recommend the IBM KnowledgeBase "**watsonx Discovery**".
 - **Virtual Agent**, we recommend the IBM Virtual Agent "**Watson Custom Extension**".
-- **Active NeuralSeek subscription**. 
 
 ⚠️ Please be aware that any purchases or subscriptions related to the aforementioned tools must be made independently by the users. It is the responsibility of each participant to understand and manage the associated costs related to the use of NeuralSeek and any other integrated services within their IBM Cloud environment. Kindly ensure that all necessary resources are set up and accessible prior to beginning the Learning Lab for a seamless and enriching experience.

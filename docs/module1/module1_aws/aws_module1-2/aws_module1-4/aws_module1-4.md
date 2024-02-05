@@ -1,8 +1,8 @@
 ---
 title: Additional Information - LLM
-permalink: /module1/module1_aws/aws_module1-4/
-parent: aws_module1-1
-order: 1
+permalink: /module1/module1_aws/aws_module1-2/aws_module1-4
+parent: aws_module1-2
+order: 2
 ---
 
 # Connect a Large Language Model (LLM) with NeuralSeek
@@ -27,7 +27,7 @@ In the "Home" tab, follow the steps to connect to your LLM.
 
 For AWS users, it is recommended to connect to the **Amazon Bedrock** platform, and the **Claude v2** LLM selection. 
 
-- **(a)** Click the drop down menu to select LLM platform. For this example, select "**Amazon Bedrock**". 
+- **(a)** Click the drop down menu to select the LLM platform. For this example, select "**Amazon Bedrock**". 
 - **(b)** Click the drop down menu to select the LLM. For this example, select "**Claude v2**". 
 - **(c)** Click "Add" to add the LLM. 
 
