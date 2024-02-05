@@ -16,7 +16,7 @@ Log in to [IBM Cloud](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-_-tri
 
 > Please note that users are responsible for all incurred costs.
 
-![image1.1.1](images/image1.1.1_updated.png)
+![image1.1.1](images/image001.png)
 
 ## Launch NeuralSeek
 
