@@ -10,9 +10,11 @@ order: 1
 ## Add NeuralSeek
 
 Log in to [IBM Cloud](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-_-trial&_gl=1*1odtrhw*_ga*NTM2NzU0MTk0LjE2OTY1MjE4NDQ.*_ga_FYECCCS21D*MTY5Njg2NzU0Ni41LjEuMTY5Njg2ODg5OS4wLjAuMA..). Search and select [NeuralSeek](https://cloud.ibm.com/catalog/services/neuralseek?cm_sp=ibmdev-_-developer-_-trial) from Catalog. 
-- **(a)** Select a plan type. 
+- **(a)** Select the **Pay-per-answer** plan type. 
 - **(b)** To agree to the third-party terms, in the bottom right, open and read the terms then check, “I have read and agree to the following third-party terms”. 
 - **(c)** To provision, click “Create”.
+
+> Please note that users are responsible for all incurred costs.
 
 ![image1.1.1](images/image1.1.1_updated.png)
 
