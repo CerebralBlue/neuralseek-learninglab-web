@@ -1,8 +1,8 @@
 ---
 title: Additional Information - LLM
-permalink: /module1/module1_aws/aws_module1-4/
-parent: aws_module1-1
-order: 1
+permalink: /module1/module1_aws/aws_module1-2/aws_module1-4
+parent: aws_module1-2
+order: 2
 ---
 
 # Connect a Large Language Model (LLM) with NeuralSeek

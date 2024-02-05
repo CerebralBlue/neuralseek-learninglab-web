@@ -151,4 +151,4 @@ Click "Continue" to be directed to the NeuralSeek user interface page.
 
 If you have selected `NeuralSeek - Bring Your Own Large Language Model` and wish to use your own LLM for the lab, you need to follow these additional steps to configure your LLM on NeuralSeek: 
 
-🔗 <a href="{% link module1/module1_aws/aws_module1-4/aws_module1-4.md %}">Connect a LLM to NeuralSeek</a>.
+🔗 <a href="{% link module1/module1_aws/aws_module1-2/aws_module1-4/aws_module1-4.md %25} %}">Connect a LLM to NeuralSeek</a>.

@@ -14,18 +14,16 @@ First, we need a short writeup about your company or organization, focusing on t
 - **(b)** Select "Output Language" from the drop down menu. In this example, select "**English**". It's best to match the language of your knowledgebase and questions, but NeuralSeek is able to translate between many languages.
 - **(c)** Select preferred use of NeuralSeek instance. Will this instance of NeuralSeek be used internally within your organization, or is it external - customer facing? We'll use this info to pre-tune some safety parameters for you. In this example, select "**Internal**". 
 
-![image1]()
+![image](images/aws_001.png)
 
 Click "Next" to save unique description, language and use-case choice. 
 
 ## Data - Connect to your KnowledgeBase
 
-- **(a)** Select desired KnowledgeBase from the drop down menu. For the purpose of this lab, we recommend the AWS KnowledgeBase "**Kendra Index**." 
+- **(a)** Select desired KnowledgeBase from the drop down menu. For the purpose of this lab, we recommend the AWS KnowledgeBase "**Kendra**." 
 - **(b)** Select desired language. For the purpose of this lab, click "**English**." 
   
-![image1.4.3]()
-
-![image1.4.4]()
+![image](images/aws_002.png)
 
 ### Add KnowledgeBase Information
 
@@ -40,11 +38,11 @@ Please enter the following:
 - **(c)** Add "AWS Region".
 - **(d)** Add "AWS Role Secret Access Key".
 
-![image1.4.5]()
+![image](images/aws_003.png)
  
 Click "Test" button to test the connection. Then, click "Next" to save KnowledgeBase configuration. 
 
-![image1.4.6]()
+![image](images/aws_004.png)
 
 > NeuralSeek is now set up with a KnowledgeBase, in this case: **Kendra Index**, and ready to seek. 
 
@@ -63,14 +61,13 @@ Categorize your intents for easier reporting and management.
 - **(a)** Click the light bulb icon to add a new row. 
 - **(b)** Enter in a unique category name, a corresponding URL, and a detailed description of the category with intents that do not match any other category.
 
-![image]()
+![image](images/aws_005.png)
 
 ### Virtual Agent Framework
 - **(a)** Select "Virtual Agent Type" from the drop down menu. In this example, select "**AWS Lex V2**".
-
 - **(b)** Select preferred choice of enabling or disabling embedding links into returned responses. In this example, select "**Disable**". 
 
-![image]()
+![image](images/aws_006.png)
 
 Click "Next" to save reported categories and selected Virtual Agent. 
 
@@ -80,16 +77,19 @@ Let's tune NeuralSeek for your data.
 - **(a)** Select preferred option for "Which of these looks more like your data?". For this example, select "**Important phrases are surrounded by many lines of text that explain them.**". 
     - The option "*Important phrases are surrounded by many lines of text that explain them*", describes data with more elaborate explanations with more extensive passages of text for a better understanding.  
     - The option "*Important phrases are surrounded by only a line or two of relevant information*", describes data with concise coverage of key phrases with just a line or two of necessary context. 
-- **(b)** Select preferred option that best describes your data currency. For this example, select "**All of my documents are current and relevant.**". 
+- **(b)** Select preferred option that best describes your data requirements. For this example, select "**I want give lots of information to the LLM, and give it leeway to decide the answer.**"
+- **(c)** Select preferred option that best describes your data currency. For this example, select "**All of my documents are current and relevant.**". 
     - The option "*All of my documents are current and relevant*", describes data that is up-to-date.
     - The option "*I have lots of old documents or blog posts, some with conflicting information. I need NeuralSeek to help with date prioritization*", describes data that may have there are conflicting or irrelevant details across different sources or documents.
 
-![image]()
+Click "Next" to save reported tuning configurations. 
+
+![image](images/aws_007.png)
 
 ## Ready
 
 NeuralSeek is ready to seek.
 
-![image1.1.7](images/image1.1.7.png)
+![image](images/aws_008.png)
 
 > NeuralSeek is now set up and ready to use. 
