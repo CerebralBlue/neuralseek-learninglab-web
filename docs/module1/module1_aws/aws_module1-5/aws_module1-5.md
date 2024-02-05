@@ -9,7 +9,7 @@ order: 5
 
 ## Q&A
 
-As questions are answered by NeuralSeek, we can automatically build out and maintain portions your Virtual Agent.
+As questions are answered by NeuralSeek, we can automatically build out and maintain portions of your Virtual Agent.
 
 Use the buttons below to quickly generate Q&A content to bootstrap and test your Virtual Agent.
 
@@ -23,7 +23,7 @@ Use the buttons below to quickly generate Q&A content to bootstrap and test your
 
 ![image4](images/1.5.6.png)
 
-- **Upload Test Questions** will provide a link to your local file explorer to upload a CSV file of test questions. The questions will be run thru the Seek endpoint in parallel and scored. Please use the provided downloadable .csv file as a template for your questions.  Input files must retain these column titles at a minimum, but you may add additional payload columns. Click "Submit" to have NeuralSeek generate answers. 
+- **Upload Test Questions** will provide a link to your local file explorer to upload a CSV file of test questions. The questions will be run through the Seek endpoint in parallel and scored. Please use the provided downloadable .csv file as a template for your questions.  Input files must retain these column titles at a minimum, but you may add additional payload columns. Click "Submit" to have NeuralSeek generate answers. 
 
 ![image5](images/1.5.8.png)
 

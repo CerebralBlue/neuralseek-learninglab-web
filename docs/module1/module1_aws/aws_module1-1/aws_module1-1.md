@@ -35,9 +35,9 @@ If you do have your own LLM, and thus have the necessary keys and region, (role 
 
 ## Purchasing
 
-After you selected a product from the list, click "View purchase options" button at the top right.
+After you select a product from the list, click the "View purchase options" button at the top right.
 
-Review the offer, and pricing information. When ready click `Subscribe` button under the "Purchase".
+Review the offer, and pricing information. When ready click the `Subscribe` button under the "Purchase".
 
 ## Manage Subscriptions
 
@@ -68,7 +68,7 @@ NeuralSeek's instance control page should be initially empty. Here, we need to:
 
 ## Create a User
 
-You will need to have an user account to be able to connect to NeuralSeek.
+You will need to have a user account to be able to connect to NeuralSeek.
 
 - **(a)** Enter email address into “Add User (Email)” box. 
 - **(b)** Click on the "plus" icon to add a user.
@@ -150,5 +150,4 @@ Click "Continue" to be directed to the NeuralSeek user interface page.
 ## ⚠️ For 'NeuralSeek - Bring Your Own Large Language Model' lab participants
 
 If you have selected `NeuralSeek - Bring Your Own Large Language Model` and wish to use your own LLM for the lab, you need to follow these additional steps to configure your LLM on NeuralSeek: 
-
-🔗 <a href="{% link module1/module1_aws/aws_module1-2/aws_module1-4/aws_module1-4.md %25} %}">Connect a LLM to NeuralSeek</a>.
+[Connect a LLM to NeuralSeek]({{site.baseurl}}{% link module1/module1_aws/aws_module1-2/aws_module1-4/aws_module1-4.md %})
