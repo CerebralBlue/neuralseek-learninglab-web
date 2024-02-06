@@ -1,8 +1,8 @@
 ---
 title: Additional Information - LLM
-permalink: /module1/module1_ibm/ibm_module1-7/
-parent: module1_ibm
-order: 7
+permalink: /module1/module1_ibm/ibm_module1-1/ibm_module1-7
+parent: ibm_module1-1
+order: 1
 ---
 
 # Connect a Large Language Model (LLM) with NeuralSeek
