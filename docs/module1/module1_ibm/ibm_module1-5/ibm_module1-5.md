@@ -9,7 +9,7 @@ order: 5
 
 ## Open Actions
 
-Open IBM Watsonx Assistant. 
+Open IBM watsonx Assistant. 
 - **(a)** On the left menu, select “Actions”.
 - **(b)** Click “Created by you”.
 - **(c)** Click “Create action”.

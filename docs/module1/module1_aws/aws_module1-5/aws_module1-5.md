@@ -15,7 +15,7 @@ Use the buttons below to quickly generate Q&A content to bootstrap and test your
 
 ![image3](images/1.5.3.png) 
 
-- **Auto-Generate Questions** will query the knowledgebase, ask NeuralSeekm generate insights and output a variety of test questions based on your corporate content. Click "Submit" to have NeuralSeek generate answers. 
+- **Auto-Generate Questions** will query the knowledgebase, ask NeuralSeek to generate insights and output a variety of test questions based on your corporate content. Click "Submit" to have NeuralSeek generate answers. 
 
 ![image3](images/1.5.4.png) 
 
