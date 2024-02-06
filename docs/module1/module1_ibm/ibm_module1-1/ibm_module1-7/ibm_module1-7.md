@@ -27,7 +27,7 @@ In the "Home" tab, follow the steps to connect to your LLM.
 
 For IBM users, it is recommended to connect to the **watsonx** platform, and the **Llama-2-chat 70B** LLM selection. 
 
-- **(a)** Click the drop down menu to select LLM platform. For this example, select "**watsonx**". 
+- **(a)** Click the drop down menu to select the LLM platform. For this example, select "**watsonx**". 
 - **(b)** Click the drop down menu to select the LLM. For this example, select "**Llama-2-chat 70B**". 
 - **(c)** Click "Add" to add the LLM. 
 

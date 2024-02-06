@@ -16,32 +16,43 @@ Log in to [IBM Cloud](https://cloud.ibm.com/login?cm_sp=ibmdev-_-developer-_-tri
 
 > Please note that users are responsible for all incurred costs.
 
-![image1.1.1](images/image001.png)
+![image](images/image001.png)
 
 ## Launch NeuralSeek
 
 Click “Launch NeuralSeek”.
 
-![image1.1.2](images/image1.1.2.png)
+![image](images/ibm_003.png)
 
 ## Basics - Getting Started
+First, we need a short writeup about your company or organization, focusing on the use-case for this instance of NeuralSeek.
 
-Complete required form. 
-- **(a)** Enter the company name or organization display name.
-- **(b)** Select output language. For the purpose of this lab we recommend English. 
-- **(c)** Start training NeuralSeek AI by checking the purpose of the virtual agent. Choose “Internal” or “External”.
-- **(d)** Click “Next”.
+- **(a)** Add a brief company or organization description. 
+- **(b)** Select "Output Language" from the drop down menu. In this example, select "**English**". It's best to match the language of your KnowledgeBase and questions, but NeuralSeek is able to translate between many languages.
+- **(c)** Select preferred use of NeuralSeek instance. Will this instance of NeuralSeek be used internally within your organization, or is it external - customer facing? We'll use this info to pre-tune some safety parameters for you. In this example, select "**Internal**". 
 
-  ![image1.1.3](images/image1.1.3.png)
+![image](images/aws_001.png)
 
 ## Data - Connect to your KnowledgeBase
 
-- **(a)** Select KnowledgeBase. In this example “watsonx Discovery”.
-- **(b)** Select language. In this example "English".
-- **(c)** Enter the watsonx Discovery Endpoint URL, Private API Key, and Index name. In this example, use the credentials provided by your instructor. 
-- **(d)** Click “Next”. If this is your first time setting up NeuralSeek you will be prompted to complete the Curation Tour at this time.
+- **(a)** Select KnowledgeBase. In this example “**Watson Discovery**”.
+- **(b)** Select language. In this example "**English**".
 
-![image1.1.4](images/image1.1.4_updated.png)
+![image](images/ibm_004.png)
+
+### Add KnowledgeBase Information
+
+User is responsible for providing selected KnowledgeBase details information. Since it takes time to set these up for yourself, we are going to be using the one that is already prepared for the learning lab, with read-only access. The actual values below will be provided during the course of this lab by the lab instructor.
+
+Please enter the following:
+
+- **(a)** Add "Discovery Service URL".
+- **(b)** Add "Discovery API Key".
+- **(c)** Add "Discovery Project ID".
+
+Click the "Test" button to test the connection. Then, click "Next" to save KnowledgeBase configuration. 
+
+![image](images/ibm_005.png)
 
 ## Organize - Outputs and Categories
 ### Categorization
@@ -61,19 +72,19 @@ Categorize your intents for easier reporting and management.
 
 ![image](images/ibm_001.png)
 
-Click "Next" to save reported categories and selected Virtual Agent. 
+Click "Next" to save reported categories and the selected Virtual Agent. 
 
 ## Tune - Tune for your Data
 
 Let's tune NeuralSeek for your data.
 
-- **(a)** Select preferred option for "Which of these looks more like your data?". For this example, select "**Important phrases are surrounded by many lines of text that explain them.**". 
+- **(a)** Select the preferred option for "Which of these looks more like your data?". For this example, select "**Important phrases are surrounded by many lines of text that explain them.**". 
     - The option "*Important phrases are surrounded by many lines of text that explain them*", describes data with more elaborate explanations with more extensive passages of text for a better understanding.  
     - The option "*Important phrases are surrounded by only a line or two of relevant information*", describes data with concise coverage of key phrases with just a line or two of necessary context. 
-- **(b)** Select preferred option that best describes your data requirements. For this example, select "**I want give lots of information to the LLM, and give it leeway to decide the answer.**"
-- **(c)** Select preferred option that best describes your data currency. For this example, select "**All of my documents are current and relevant.**". 
+- **(b)** Select the preferred option that best describes your data requirements. For this example, select "**I want to give lots of information to the LLM, and give it leeway to decide the answer.**"
+- **(c)** Select the preferred option that best describes your data currency. For this example, select "**All of my documents are current and relevant.**". 
     - The option "*All of my documents are current and relevant*", describes data that is up-to-date.
-    - The option "*I have lots of old documents or blog posts, some with conflicting information. I need NeuralSeek to help with date prioritization*", describes data that may have there are conflicting or irrelevant details across different sources or documents.
+    - The option "*I have lots of old documents or blog posts, some with conflicting information. I need NeuralSeek to help with date prioritization*", describes data that may have conflicting or irrelevant details across different sources or documents.
 
 Click "Next" to save reported tuning configurations. 
 

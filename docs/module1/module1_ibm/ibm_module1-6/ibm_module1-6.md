@@ -7,9 +7,9 @@ order: 6
 
 # Module 1.6: Change Default to Generative AI Responses
 
-## Generative AI Reponses
+## Generative AI Responses
 
-Setup a NeuralSeek call action to use to have generative AI respond to all queries, even questions not listed in Watsonx Assistant. 
+Set up a NeuralSeek call action to use to have generative AI respond to all queries, even questions not listed in watsonx Assistant. 
 
 - **(a)** On the left menu, select “Actions”.
 - **(b)** Under All items, select “Set by assistant”.
@@ -88,4 +88,4 @@ View the NeuralSeek generative AI response.
 
 ![image1.6.11](images/image1.6.11.png)
 
-> A NeuralSeek call action that allows for generative AI respones to all queries is now setup, tested, and ready to use. 
+> A NeuralSeek call action that allows for generative AI responses to all queries is now set up, tested, and ready to use. 
